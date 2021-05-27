@@ -1,0 +1,86 @@
+.home {
+  background: url("/images/firstbackground.jpg") no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  color: #ffffff;
+
+  h1 {
+    font-family: "League Spartan", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    line-height: 38px;
+    font-size: 42px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: rgb(66, 184, 253);
+    }
+
+    @media only screen and (min-width: 700px) {
+      margin-bottom: 10px;
+      font-size: 58px;
+      line-height: 52px;
+    }
+    @media only screen and (min-width: 900px) {
+      margin-bottom: 20px;
+      line-height: 66px;
+      font-size: 78px;
+    }
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.14rem;
+    position: relative;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: rgb(66, 184, 253);
+    }
+  }
+  .home-content-main {
+    padding-left: 60px;
+  }
+}
+
+.home-content-main {
+  width: 1000px;
+  margin: 0 auto;
+  @media only screen and (min-width: 75em) {
+    width: 1170px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  margin-right: 16px;
+  padding: 10px 20px;
+  font-family: "League Spartan", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  position: relative;
+  border: 3px solid #ffffff;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+}
