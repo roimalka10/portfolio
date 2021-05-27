@@ -3,14 +3,16 @@
   background-position: 50% 100%;
   background-size: cover;
   height: 100vh;
+  z-index: 10;
 }
 
 .home-content {
-  position: absolute;
+  position: relative;
   top: 50%;
   transform: translateY(-50%);
   width: 100%;
   color: #ffffff;
+  z-index: 6;
 
   h1 {
     font-family: "League Spartan", Helvetica, Arial, sans-serif;
