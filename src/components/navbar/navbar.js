@@ -10,22 +10,10 @@ const Navbar = () => {
     setShowMenu(!showMenu);
   };
 
-  const [navbar, setNavbar] = useState(false);
-
-  const changeBackground = () => {
-    if (window.scrollY > 10) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
-  window.addEventListener("scroll", changeBackground);
-
   return (
     <>
       <IconContext.Provider value={{ color: "white" }}>
-        <div className={navbar ? "navbar active" : "navbar"}>
+        <div className="navbar">
           <a className="logo" onClick={handleClick} href="/home">
             <img src="https://d33wubrfki0l68.cloudfront.net/7d67067382c65bc1d6deb566dc125e2091c377be/1d162/images/name-logo.jpeg" />
           </a>
@@ -48,8 +36,7 @@ const Navbar = () => {
           </div>
         </div>
         <nav className={showMenu ? "nav-menu active" : "nav-menu"}>
-          <FaTimes className="close-icon" size={31} onClick={handleClick} />
-          <ul className="nav-menu-items">
+          <ul className="nav-menu-items" onClick={handleClick}>
             <li>
               <a href="/">Home</a>
             </li>

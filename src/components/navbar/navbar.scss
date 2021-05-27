@@ -1,8 +1,8 @@
 .navbar {
   position: fixed;
-  height: 72px;
+  height: 80px;
   width: 100%;
-  background-color: transparent;
+  background-color: black;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -10,10 +10,6 @@
   padding: 0 40px;
   z-index: 990;
   transition: all 0.4s ease;
-}
-
-.navbar .active {
-  background-color: black;
 }
 
 .nav-menu {
@@ -24,7 +20,7 @@
   top: 0;
   right: -100%;
   transition: 450ms;
-  z-index: 120;
+  z-index: 150;
 }
 
 .nav-menu.active {
@@ -36,7 +32,7 @@
   justify-self: flex-start;
   display: flex;
   width: 75px;
-  height: 72px;
+  height: 80px;
   img {
     height: 100%;
   }
@@ -74,7 +70,7 @@
 
 .nav-menu-items {
   background-color: #000000;
-  margin-top: 72px;
+  margin-top: 80px;
   height: 92.2vh;
   list-style: none;
   z-index: 100;
@@ -101,6 +97,7 @@
 
 .burger-icon {
   display: none;
+  z-index: 2;
 
   @media screen and (max-width: 960px) {
     display: block;
@@ -108,11 +105,4 @@
     margin-top: 2px;
     cursor: pointer;
   }
-}
-
-.close-icon {
-  float: right;
-  margin-right: 29px;
-  margin-top: 19px;
-  cursor: pointer;
 }
