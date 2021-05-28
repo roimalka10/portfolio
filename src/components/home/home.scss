@@ -1,5 +1,5 @@
 .home {
-  background: url("/images/firstbackground.jpg") no-repeat;
+  background: rgb(119, 119, 233);
   background-position: 50% 100%;
   background-size: cover;
   height: 100vh;
@@ -18,6 +18,7 @@
     font-family: "League Spartan", Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
+    width: fit-content;
     margin-bottom: 10px;
     line-height: 38px;
     font-size: 42px;
@@ -46,6 +47,7 @@
     font-style: italic;
     font-weight: 600;
     letter-spacing: 0.14rem;
+    width: fit-content;
     position: relative;
     margin-bottom: 30px;
     transition: all 0.3s ease;
@@ -59,12 +61,26 @@
     @media screen and (min-width: 1000px) {
       padding-left: 60px;
     }
+    @media screen and (max-width: 540px) {
+      padding-left: 0px;
+      padding-top: 70px;
+      width: 330px;
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 
 .home-content-main {
   width: 1000px;
   margin: 0 auto;
+}
+
+.buttons {
+  @media screen and (max-width: 540px) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .btn {
@@ -84,5 +100,40 @@
   &:hover {
     background-color: rgb(255, 255, 255);
     color: black;
+  }
+  @media screen and (max-width: 540px) {
+    padding: 10px 10px;
+    margin-right: 0;
+  }
+}
+.icons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 2%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  transition: opacity 0.35s ease 0.75s;
+  z-index: 7;
+  li {
+    margin: 15px 0;
+  }
+  @media screen and (max-width: 540px) {
+    padding-top: 30px;
+    flex-direction: row;
+    position: relative;
+    top: 0;
+    justify-content: center;
+    right: 0%;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    li {
+      margin: 0 15px;
+    }
   }
 }

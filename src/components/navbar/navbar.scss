@@ -51,7 +51,7 @@
 
   li {
     height: 80px;
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 640px) {
       display: none;
     }
   }
@@ -97,7 +97,7 @@
     }
   }
 
-  @media (min-width: 960px) {
+  @media (min-width: 640px) {
     display: none;
   }
 }
@@ -106,7 +106,7 @@
   display: none;
   z-index: 2;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 640px) {
     display: block;
     margin-top: 2px;
     cursor: pointer;

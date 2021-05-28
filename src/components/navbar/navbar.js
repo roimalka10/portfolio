@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.scss";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 
 const Navbar = () => {
