@@ -55,16 +55,16 @@
     }
   }
   .home-content-main {
-    padding-left: 60px;
+    padding-left: 80px;
+    @media screen and (min-width: 1000px) {
+      padding-left: 60px;
+    }
   }
 }
 
 .home-content-main {
   width: 1000px;
   margin: 0 auto;
-  @media only screen and (min-width: 75em) {
-    width: 1170px;
-  }
 }
 
 .btn {

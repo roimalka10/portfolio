@@ -22,6 +22,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <ul className="icons"></ul>
     </section>
   );
 };

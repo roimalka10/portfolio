@@ -4,12 +4,19 @@
   width: 100%;
   background-color: black;
   color: white;
+  z-index: 990;
+  transition: all 0.4s ease;
+}
+
+.content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
-  z-index: 990;
-  transition: all 0.4s ease;
+  padding: 0 30px;
+  @media screen and (min-width: 1100px) {
+    width: 1100px;
+    margin: 0 auto;
+  }
 }
 
 .nav-menu {
@@ -101,7 +108,6 @@
 
   @media screen and (max-width: 960px) {
     display: block;
-    margin-right: -11px;
     margin-top: 2px;
     cursor: pointer;
   }
