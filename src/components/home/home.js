@@ -23,12 +23,12 @@ const Home = () => {
           </div>
           <ul className="icons">
             <li>
-              <a>
+              <a href="https://github.com/roimalka10" target="_blank">
                 <FaGithub size={30} />
               </a>
             </li>
             <li>
-              <a>
+              <a href="https://www.linkedin.com/in/roi-malka/" target="_blank">
                 <FaLinkedinIn size={30} />
               </a>
             </li>
