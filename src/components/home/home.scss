@@ -36,7 +36,7 @@
     @media only screen and (min-width: 900px) {
       margin-bottom: 20px;
       line-height: 66px;
-      font-size: 84px;
+      font-size: 92px;
     }
   }
 
@@ -121,14 +121,17 @@
 
 .name-logo {
   position: absolute;
-  top: 37%;
+  top: 34%;
   left: 50%;
   transform: translate(-50%, 0);
   opacity: 0.3;
   z-index: 4;
   img {
-    width: 495px;
+    width: 600px;
     height: 100%;
+    @media screen and (max-width: 1400px) {
+      width: 495px;
+    }
   }
   @media screen and (max-width: 640px) {
     img {
