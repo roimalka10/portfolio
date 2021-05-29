@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="navbar">
           <div className="content">
             <a className="logo" onClick={handleClick} href="/home">
-              <img src="https://d33wubrfki0l68.cloudfront.net/7d67067382c65bc1d6deb566dc125e2091c377be/1d162/images/name-logo.jpeg" />
+              <img src="https://res.cloudinary.com/noname-m-/image/upload/v1622245542/images/namelogo_hpncdo.png" />
             </a>
             <ul className="navbar-lg-item">
               <li>
@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
         </div>
         <nav className={showMenu ? "nav-menu active" : "nav-menu"}>
-          <ul className="nav-menu-items" onClick={handleClick}>
+          <ul className="nav-menu-items">
             <li>
               <a href="/">Home</a>
             </li>

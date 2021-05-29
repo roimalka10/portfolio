@@ -1,20 +1,20 @@
 .navbar {
   position: fixed;
-  height: 80px;
+  height: 72px;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: transparent;
   z-index: 990;
   transition: all 0.4s ease;
 }
 
 .content {
   display: flex;
+  height: 72px;
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
   @media screen and (min-width: 1100px) {
-    width: 1100px;
+    width: 1300px;
     margin: 0 auto;
   }
 }
@@ -33,14 +33,15 @@
 .nav-menu.active {
   right: 0;
   transition: 450ms;
+  @media (min-width: 640px) {
+    display: none;
+  }
 }
 
 .logo {
-  justify-self: flex-start;
-  display: flex;
-  width: 75px;
-  height: 80px;
+  height: 55px;
   img {
+    width: 105px;
     height: 100%;
   }
 }
@@ -50,24 +51,22 @@
   list-style: none;
 
   li {
-    height: 80px;
+    height: 72px;
     @media screen and (max-width: 640px) {
       display: none;
     }
   }
   a {
-    text-transform: uppercase;
     font-family: "montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
-    color: #fff;
+    color: #e5e6f7;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding-right: 1rem;
     padding-left: 1rem;
     height: 100%;
-    color: white;
     &:hover {
       color: rgb(66, 184, 253);
       transition: all 0.3s ease;
@@ -77,14 +76,14 @@
 
 .nav-menu-items {
   background-color: #000000;
-  margin-top: 80px;
+  margin-top: 72px;
   height: 92.2vh;
   list-style: none;
   z-index: 100;
   a {
     font-family: "montserrat", sans-serif;
+    font-size: 20px;
     font-weight: 700;
-    text-transform: uppercase;
     text-decoration: none;
     color: white;
     text-align: center;

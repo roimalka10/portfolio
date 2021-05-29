@@ -1,5 +1,5 @@
 .home {
-  background: url("/images/firstbackground.jpg") no-repeat;
+  background: url("/images/Firstbackground.jpg") no-repeat;
   background-position: 50% 100%;
   background-size: cover;
   height: 100vh;
@@ -36,7 +36,7 @@
     @media only screen and (min-width: 900px) {
       margin-bottom: 20px;
       line-height: 66px;
-      font-size: 78px;
+      font-size: 84px;
     }
   }
 
@@ -58,7 +58,7 @@
   }
   .home-content-main {
     padding-left: 80px;
-    @media screen and (min-width: 1000px) {
+    @media screen and (min-width: 1200px) {
       padding-left: 60px;
     }
     @media screen and (max-width: 540px) {
@@ -122,14 +122,21 @@
   a {
     transition: all 0.3s ease;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #e5e6f7;
     &:hover {
       color: rgb(66, 184, 253);
     }
   }
   li {
     margin: 15px 0;
+    @media screen and (min-width: 1400px) {
+      .icon-size {
+        width: 55px;
+        height: 55px;
+      }
+    }
   }
+
   @media screen and (max-width: 540px) {
     padding-top: 30px;
     flex-direction: row;
