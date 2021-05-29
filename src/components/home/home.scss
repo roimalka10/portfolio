@@ -81,6 +81,11 @@
     display: flex;
     justify-content: space-between;
   }
+  @media screen and (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .btn {
@@ -104,6 +109,13 @@
   @media screen and (max-width: 540px) {
     padding: 10px 10px;
     margin-right: 0;
+  }
+  @media screen and (max-width: 360px) {
+    width: 160px;
+    margin-bottom: 12px;
+  }
+  @media screen and (max-width: 281px) {
+    margin-right: 50px;
   }
 }
 
@@ -167,5 +179,8 @@
     li {
       margin: 0 15px;
     }
+  }
+  @media screen and (max-width: 281px) {
+    right: 7%;
   }
 }
