@@ -5,6 +5,9 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 const Home = () => {
   return (
     <section className="home">
+      <div className="name-logo">
+        <img src="https://res.cloudinary.com/noname-m-/image/upload/v1622245542/images/namelogo_hpncdo.png" />
+      </div>
       <div className="home-content">
         <div className="home-content-main">
           <div className="home-title">
