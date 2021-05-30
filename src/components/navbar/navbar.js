@@ -19,16 +19,24 @@ const Navbar = () => {
           </a>
           <ul className="navbar-lg-item">
             <li>
-              <a href="/">Home</a>
+              <a className="navbar-a" href="/">
+                <span>Home</span>
+              </a>
             </li>
             <li>
-              <a href="/projects">Projects</a>
+              <a className="navbar-a" href="/projects">
+                <span>Projects</span>
+              </a>
             </li>
             <li>
-              <a href="/about">About</a>
+              <a className="navbar-a" href="/about">
+                <span>About</span>
+              </a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a className="navbar-a" href="/contact">
+                <span>Contact</span>
+              </a>
             </li>
           </ul>
           <div className="burger-icon">
