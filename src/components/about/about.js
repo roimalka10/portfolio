@@ -5,10 +5,9 @@ import {
   FaGitAlt,
   FaReact,
   FaNpm,
-  FaFigma,
   FaGithub,
+  FaSass,
 } from "react-icons/fa";
-
 import { SiCss3, SiVisualstudiocode, SiJavascript } from "react-icons/si";
 
 const About = () => {
@@ -32,74 +31,74 @@ const About = () => {
           <h2>Skills</h2>
           <hr />
         </div>
-        <section class="skills">
+        <section className="skills">
           <div>
-            <div class="icon1">
-              <span class="icon-html5 spancss">
+            <div className="icon1">
+              <span className="icon-html5 spancss">
                 <FaHtml5 size={30} className="icon-size" />
               </span>
               <h3>HTML5</h3>
             </div>
           </div>
           <div>
-            <div class="icon1">
-              <span class="icon-css3 spancss">
+            <div className="icon1">
+              <span className="icon-css3 spancss">
                 <SiCss3 size={30} className="icon-size" />
               </span>
               <h3>CSS3</h3>
             </div>
           </div>
           <div>
-            <div class="icon1">
-              <span class="icon-javascript spancss">
+            <div className="icon1">
+              <span className="icon-javascript spancss">
                 <SiJavascript size={30} className="icon-size" />
               </span>
               <h3>JavaScript</h3>
             </div>
           </div>
           <div>
-            <div class="icon1">
-              <span class="icon-react spancss">
+            <div className="icon1">
+              <span className="icon-react spancss">
                 <FaReact size={30} className="icon-size" />
               </span>
               <h3>React</h3>
             </div>
           </div>
           <div>
-            <div class="icon1">
-              <span class="icon-git spancss">
+            <div className="icon1">
+              <span className="icon-git spancss">
                 <FaGitAlt size={30} className="icon-size" />
               </span>
               <h3>Git</h3>
             </div>
           </div>
           <div>
-            <div class="icon1">
-              <span class="icon-github spancss">
+            <div className="icon1">
+              <span className="icon-github spancss">
                 <FaGithub size={30} className="icon-size" />
               </span>
               <h3>GitHub</h3>
             </div>
           </div>
           <div>
-            <div class="icon1">
-              <span class="icon-vscode spancss">
+            <div className="icon1">
+              <span className="icon-vscode spancss">
                 <SiVisualstudiocode size={30} className="icon-size" />
               </span>
               <h3>VSCode</h3>
             </div>
           </div>
           <div>
-            <div class="icon1">
-              <span class="icon-figma spancss">
-                <FaFigma size={30} className="icon-size" />
+            <div className="icon1">
+              <span className="icon-sass spancss">
+                <FaSass size={30} className="icon-size" />
               </span>
-              <h3>Figma</h3>
+              <h3>Sass</h3>
             </div>
           </div>
           <div>
-            <div class="icon1">
-              <span class="icon-npm spancss">
+            <div className="icon1">
+              <span className="icon-npm spancss">
                 <FaNpm size={30} className="icon-size" />
               </span>
               <h3>npm</h3>
