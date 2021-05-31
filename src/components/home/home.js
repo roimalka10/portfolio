@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className="home">
+    <section className="home" name="home-id">
       <div className="name-logo">
         <img src="https://res.cloudinary.com/noname-m-/image/upload/v1622245542/images/namelogo_hpncdo.png" />
       </div>
@@ -19,9 +19,6 @@ const Home = () => {
           <div className="buttons">
             <a className="btn" href="#projects">
               Latest Projects
-            </a>
-            <a className="btn" href="#about">
-              More About Me
             </a>
           </div>
           <ul className="icons">

@@ -12,7 +12,7 @@ import { SiCss3, SiVisualstudiocode, SiJavascript } from "react-icons/si";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about-id">
       <div className="container">
         <div className="about-content">
           <div className="about-me">
