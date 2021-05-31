@@ -129,7 +129,8 @@
   border: 3px solid #ffffff;
   transition: all 0.5s ease;
   &:hover {
-    background-color: rgb(255, 255, 255);
+    border: 3px solid #27719b;
+    background-color: rgb(66, 184, 253);
     color: black;
   }
   @media screen and (max-width: 540px) {
