@@ -32,7 +32,7 @@ const Navbar = () => {
             to="about-id"
             spy={true}
             smooth={true}
-            duration={700}
+            duration={500}
           >
             SKills
           </Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
             to="projects"
             spy={true}
             smooth={true}
-            duration={600}
+            duration={500}
           >
             Projects
           </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            duration={800}
+            duration={500}
           >
             Contact
           </Link>
