@@ -87,26 +87,65 @@
 }
 .icon-html5 {
   color: #e34f26;
+  &:hover {
+    color: #777777;
+    transition: all 0.2s;
+  }
 }
 .icon-css3 {
   color: #1572b6;
+  &:hover {
+    color: #777777;
+    transition: all 0.2s;
+  }
 }
 .icon-javascript {
   color: #f7df1e;
+  &:hover {
+    color: #777777;
+    transition: all 0.2s;
+  }
 }
 .icon-react {
   color: #61dafb;
+  &:hover {
+    color: #777777;
+    transition: all 0.2s;
+  }
 }
 .icon-git {
   color: #f05032;
+  &:hover {
+    color: #777777;
+    transition: all 0.2s;
+  }
+}
+.icon-github {
+  color: #2d333b;
+  &:hover {
+    color: #777777;
+    transition: all 0.2s;
+  }
 }
 .icon-npm {
   color: #cb3837;
+  &:hover {
+    color: #777777;
+    transition: all 0.2s;
+  }
 }
 .icon-vscode {
   color: #007acc;
+  &:hover {
+    color: #777777;
+    transition: all 0.2s;
+  }
   // #007ACC
 }
 .icon-sass {
   color: #cf649a;
+  &:hover {
+    color: #777777;
+    transition: all 0.2s;
+  }
 }
