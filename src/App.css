@@ -41,3 +41,11 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-thumb {
+  background: #575757;
+  border-radius: 3px;
+}
