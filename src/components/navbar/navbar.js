@@ -33,7 +33,7 @@ const Navbar = () => {
             to="about-id"
             spy={true}
             smooth={true}
-            offset={30}
+            offset={15}
             duration={0}
             onClick={handleClick}
           >
