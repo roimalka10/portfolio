@@ -15,6 +15,7 @@ const Home = () => {
           </div>
           <div className="home-subtitle">
             <h3>Front-end Web Developer</h3>
+            {/* i build amazing experiences */}
           </div>
           <div className="buttons">
             <a className="btn" href="#projects">

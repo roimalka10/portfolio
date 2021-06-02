@@ -67,12 +67,12 @@ const About = () => {
             </span>
             <h3>Sass</h3>
           </div>
-          <div className="icon1">
+          {/* <div className="icon1">
             <span className="icon-npm spancss">
               <FaNpm size={30} className="icon-size" />
             </span>
             <h3>npm</h3>
-          </div>
+          </div> */}
         </section>
       </div>
     </section>
