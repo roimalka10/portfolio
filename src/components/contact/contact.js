@@ -55,7 +55,7 @@ const Contact = () => {
             <span class="top"></span>
             <span class="left"></span>
           </div>
-          <input type="submit" value="SUBMIT" />
+          <input type="submit" value="Submit" />
         </form>
       </div>
     </>

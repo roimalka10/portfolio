@@ -7,16 +7,17 @@
   height: 72px;
   width: 100%;
   background-color: black;
+  // background-color: #252934;
   z-index: 900;
   transition: all 0.4s ease;
   @media screen and (min-width: 1150px) {
     padding: 0 60px;
   }
-  @media screen and (min-width: 1350px) {
-    padding: 0 100px;
+  @media screen and (min-width: 1300px) {
+    padding: 0 170px;
   }
-  @media screen and (min-width: 1750px) {
-    padding: 0 220px;
+  @media screen and (min-width: 1550px) {
+    padding: 0 300px;
   }
 }
 
@@ -83,7 +84,6 @@
 .icons-navbar {
   margin-top: 215px;
   display: none;
-
   a {
     transition: all 0.3s ease;
     text-decoration: none;

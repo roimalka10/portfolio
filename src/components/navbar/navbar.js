@@ -55,6 +55,7 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
+            offset={25}
             duration={0}
             onClick={handleClick}
           >
@@ -62,10 +63,10 @@ const Navbar = () => {
           </Link>
           <div className="icons-navbar">
             <a href="https://github.com/roimalka10" target="_blank">
-              <FaGithub size={30} />
+              <FaGithub size={40} />
             </a>
             <a href="https://www.linkedin.com/in/roi-malka/" target="_blank">
-              <FaLinkedinIn size={30} />
+              <FaLinkedinIn size={40} />
             </a>
           </div>
         </div>

@@ -3,7 +3,9 @@
   background: url("/images/Firstbackground.jpg") no-repeat;
   background-position: 50% 100%;
   background-size: cover;
+  // background: #181925;
   height: 100vh;
+  opacity: 0.97;
   z-index: 2;
 }
 .name-logo {
@@ -169,10 +171,14 @@
   }
   li {
     margin: 15px 0;
+    .icon-size {
+      width: 40px;
+      height: 40px;
+    }
     @media screen and (min-width: 900px) {
       .icon-size {
-        width: 55px;
-        height: 55px;
+        width: 60px;
+        height: 60px;
       }
     }
   }

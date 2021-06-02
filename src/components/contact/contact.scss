@@ -1,6 +1,6 @@
 .contact-text {
   background-color: #252934;
-  padding-top: 44px;
+  padding-top: 140px;
   padding-left: 75px;
   padding-right: 75px;
   h2 {
@@ -10,8 +10,10 @@
     padding-bottom: 20px;
   }
   p {
+    font-style: italic;
+    font-weight: 600;
     text-align: center;
-    color: #02c2c7;
+    color: #fff;
     padding-bottom: 20px;
     font-size: 18px;
   }
@@ -21,6 +23,7 @@
   display: flex;
   justify-content: center;
   background-color: #252934;
+  padding-bottom: 65px;
   padding-top: 20px;
   @media screen and (max-width: 599px) {
     padding-left: 20px;
@@ -67,25 +70,25 @@
     box-sizing: border-box;
     resize: vertical;
   }
-  textarea {
-    font-size: 22px;
-  }
+}
+textarea {
+  font-size: 40px;
 }
 
 input[type="submit"] {
-  -webkit-appearance: none;
-  cursor: pointer;
-  display: inline-block;
   border: 3px solid #fff;
   background-color: #252934;
-  padding: 10px 30px;
-  margin: 5px 0 0;
-  box-sizing: border-box;
-  text-decoration: none;
+  display: inline-block;
+  margin-right: 16px;
+  padding: 10px 20px;
   width: 100%;
-  color: #fff;
-  text-align: center;
-  font-size: 15px;
+  font-family: "League Spartan", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+  border: 3px solid #ffffff;
   transition: all 0.5s ease;
   &:hover {
     border: 3px solid #27719b;
@@ -96,7 +99,7 @@ input[type="submit"] {
 
 input:focus,
 textarea:focus {
-  transition: ease;
+  transition: 0.4s ease;
   outline: none !important;
-  border: 2px solid #3cefff;
+  border: 1px solid #3cefff;
 }
