@@ -8,9 +8,9 @@ import Contact from "./components/contact/contact";
 const App = () => {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <Home />
-      <About /> */}
+      <About />
       <Contact />
     </>
   );

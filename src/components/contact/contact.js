@@ -13,7 +13,11 @@ const Contact = () => {
         </div>
       </div>
       <div className="form-container" id="contact-form">
-        <form action="" target="_blank" method="POST">
+        <form
+          action="https://formspree.io/f/mpzkdonw"
+          target="_blank"
+          method="POST"
+        >
           <label for="Name">Name</label>
           <div className="form-padding">
             <input
