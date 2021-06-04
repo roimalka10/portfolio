@@ -35,7 +35,10 @@
   }
 
   label {
+    font-size: 18px;
     color: #fff;
+    font-family: "League Spartan", Helvetica, Arial, sans-serif;
+    font-weight: 800;
   }
 
   .form-padding {
@@ -75,11 +78,9 @@ textarea {
   font-size: 40px;
 }
 
-input[type="submit"] {
-  border: 3px solid #fff;
-  background-color: #252934;
+.btn1 {
   display: inline-block;
-  margin-right: 16px;
+
   padding: 10px 20px;
   width: 100%;
   font-family: "League Spartan", Helvetica, Arial, sans-serif;
@@ -87,13 +88,39 @@ input[type="submit"] {
   cursor: pointer;
   text-decoration: none;
   letter-spacing: 2px;
-  color: white;
-  border: 3px solid #ffffff;
-  transition: all 0.5s ease;
+  background-color: transparent;
+  color: #fff;
+  position: relative;
+  outline: none !important;
+  border: 3px solid #fff;
+  transition: all 0.4s ease;
+
+  .button-text {
+    position: relative;
+    font-size: 18px;
+    z-index: 25;
+  }
+
   &:hover {
     border: 3px solid #27719b;
-    background-color: rgb(66, 184, 253);
     color: black;
+  }
+
+  &:after {
+    z-index: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(66, 184, 253);
+    transition: all 0.4s ease;
+  }
+
+  &:hover:after {
+    top: 0;
+    height: 100%;
   }
 }
 

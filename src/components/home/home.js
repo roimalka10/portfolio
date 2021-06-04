@@ -17,11 +17,11 @@ const Home = () => {
             <h3>Front-end Web Developer</h3>
             {/* i build amazing experiences */}
           </div>
-          <div className="buttons">
-            <a className="btn" href="#projects">
-              Latest Projects
-            </a>
-          </div>
+
+          <a className="btn" href="/projects">
+            Latest Projects
+          </a>
+
           <ul className="icons">
             <li>
               <a href="https://github.com/roimalka10" target="_blank">

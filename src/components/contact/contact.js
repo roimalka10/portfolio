@@ -27,10 +27,6 @@ const Contact = () => {
               id="name"
               required
             />
-            <span class="bottom"></span>
-            <span class="right"></span>
-            <span class="top"></span>
-            <span class="left"></span>
           </div>
           <label for="email">Email</label>
           <div class="form-padding">
@@ -41,21 +37,14 @@ const Contact = () => {
               id="email"
               required
             />
-            <span class="bottom"></span>
-            <span class="right"></span>
-            <span class="top"></span>
-            <span class="left"></span>
           </div>
-
           <label for="message">Message</label>
           <div class="form-padding">
             <textarea className="inputs" name="message" id="message"></textarea>
-            <span class="bottom"></span>
-            <span class="right"></span>
-            <span class="top"></span>
-            <span class="left"></span>
           </div>
-          <input type="submit" value="Submit" />
+          <button className="btn1" type="submit">
+            <span class="button-text">Submit</span>
+          </button>
         </form>
       </div>
     </>
