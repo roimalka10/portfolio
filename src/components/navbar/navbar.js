@@ -37,7 +37,7 @@ const Navbar = () => {
             duration={0}
             onClick={handleClick}
           >
-            <span>SKills</span>
+            <span>Knowledge</span>
           </Link>
           <Link
             activeClass="active"

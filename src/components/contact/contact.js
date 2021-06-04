@@ -40,7 +40,12 @@ const Contact = () => {
           </div>
           <label for="message">Message</label>
           <div class="form-padding">
-            <textarea className="inputs" name="message" id="message"></textarea>
+            <textarea
+              className="inputs"
+              name="message"
+              id="message"
+              rows="8"
+            ></textarea>
           </div>
           <button className="btn1" type="submit">
             <span class="button-text">Submit</span>
