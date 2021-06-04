@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.scss";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
@@ -10,19 +11,56 @@ const Home = () => {
       </div>
       <div className="home-content">
         <div className="home-content-main">
-          <div className="home-title">
+          <motion.div
+            className="home-title"
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: 0.7,
+              type: "spring",
+              stiffness: 65,
+            }}
+          >
             <h1>Roi Malka</h1>
-          </div>
-          <div className="home-subtitle">
+          </motion.div>
+          <motion.div
+            className="home-subtitle"
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            transition={{
+              duration: 0.5,
+              delay: 1.2,
+              type: "spring",
+              stiffness: 65,
+            }}
+          >
             <h3>Front-end Web Developer</h3>
             {/* i build amazing experiences */}
-          </div>
+          </motion.div>
 
-          <a className="btn" href="/projects">
+          <motion.a
+            className="btn"
+            href="/projects"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              duration: 0.5,
+              delay: 1.7,
+            }}
+          >
             Latest Projects
-          </a>
+          </motion.a>
 
-          <ul className="icons">
+          <motion.ul
+            className="icons"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              duration: 0.5,
+              delay: 1.8,
+            }}
+          >
             <li>
               <a href="https://github.com/roimalka10" target="_blank">
                 <FaGithub size={30} className="icon-size" />
@@ -33,7 +71,7 @@ const Home = () => {
                 <FaLinkedinIn size={30} className="icon-size" />
               </a>
             </li>
-          </ul>
+          </motion.ul>
         </div>
       </div>
     </section>
