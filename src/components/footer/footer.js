@@ -15,12 +15,12 @@ const Footer = () => {
           <ul className="links">
             <li>
               <a href="https://www.linkedin.com/in/roi-malka/" target="_blank">
-                Linkedin
+                <span>Linkedin</span>
               </a>
             </li>
             <li>
               <a href="https://github.com/roimalka10" target="_blank">
-                Github
+                <span>Github</span>
               </a>
             </li>
           </ul>

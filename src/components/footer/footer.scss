@@ -39,7 +39,7 @@
 
 .links {
   list-style: none;
-  width: 200px;
+  width: 235px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -48,11 +48,54 @@
   li {
     padding: 10px 0;
     a {
-      font-family: "League Spartan", Helvetica, Arial, sans-serif;
-      font-weight: 800;
-      font-size: 20px;
+      font-family: "montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: 700;
       text-decoration: none;
-      transition: all 0.3s ease;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      position: relative;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: all 0.4s ease;
+
+      &:before {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 3px;
+        top: 20px;
+        right: 0;
+        direction: ltr;
+        z-index: -1;
+        background-color: rgb(255, 255, 255);
+        transition: all 0.25s cubic-bezier(0.694, 0.048, 0.335, 1) 0.15s;
+      }
+
+      &:hover:before {
+        left: 0;
+        width: 100%;
+      }
+
+      &:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 3px;
+        top: 20px;
+        right: 0;
+        direction: ltr;
+        z-index: -1;
+        background-color: rgb(66, 184, 253);
+        transition: all 0.4s ease;
+      }
+
+      &:hover:after {
+        left: 0;
+        right: auto;
+        width: 100%;
+      }
+
       &:hover {
         color: rgb(66, 184, 253);
       }

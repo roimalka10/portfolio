@@ -26,7 +26,7 @@ const Navbar = () => {
             duration={0}
             onClick={handleClick}
           >
-            Home
+            <span>Home</span>
           </Link>
           <Link
             activeClass="active"
@@ -37,7 +37,7 @@ const Navbar = () => {
             duration={0}
             onClick={handleClick}
           >
-            SKills
+            <span>SKills</span>
           </Link>
           <Link
             activeClass="active"
@@ -47,7 +47,7 @@ const Navbar = () => {
             duration={0}
             onClick={handleClick}
           >
-            Projects
+            <span>Projects</span>
           </Link>
 
           <Link
@@ -59,7 +59,7 @@ const Navbar = () => {
             duration={0}
             onClick={handleClick}
           >
-            Contact
+            <span>Contact</span>
           </Link>
           <div className="icons-navbar">
             <a href="https://github.com/roimalka10" target="_blank">
