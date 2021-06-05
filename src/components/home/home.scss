@@ -20,7 +20,8 @@
     width: 495px;
     height: 100%;
     @media screen and (min-width: 1400px) {
-      width: 600px;
+      width: 680px;
+      height: 360px;
     }
   }
   @media screen and (max-width: 640px) {
@@ -29,7 +30,7 @@
     }
   }
   @media screen and (min-width: 1400px) {
-    top: 35%;
+    top: 30%;
   }
 }
 

@@ -6,9 +6,17 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <section className="home" name="home-id">
-      <div className="name-logo">
+      <motion.div
+        className="name-logo"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.3 }}
+        transition={{
+          duration: 0.5,
+          delay: 2.4,
+        }}
+      >
         <img src="https://res.cloudinary.com/noname-m-/image/upload/v1622245542/images/namelogo_hpncdo.png" />
-      </div>
+      </motion.div>
       <div className="home-content">
         <div className="home-content-main">
           <motion.div
