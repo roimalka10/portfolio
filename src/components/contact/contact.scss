@@ -1,6 +1,6 @@
 .contact-text {
   background-color: #252934;
-  padding-top: 140px;
+  padding-top: 80px;
   padding-left: 75px;
   padding-right: 75px;
   h2 {
@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   background-color: #252934;
-  padding-bottom: 65px;
+  padding-bottom: 20px;
   padding-top: 20px;
   @media screen and (max-width: 599px) {
     padding-left: 20px;
@@ -85,6 +85,7 @@ textarea {
   color: #fff;
   position: relative;
   outline: none !important;
+  border-radius: 2px;
   border: 3px solid #fff;
   transition: all 0.4s ease;
 

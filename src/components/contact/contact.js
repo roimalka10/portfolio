@@ -44,7 +44,7 @@ const Contact = () => {
               className="inputs"
               name="message"
               id="message"
-              rows="8"
+              rows="5"
             ></textarea>
           </div>
           <button className="btn1" type="submit">

@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
   width: 100%;
   background: url("/images/Firstbackground.jpg") no-repeat;
   background-position: 50% 100%;
@@ -19,6 +20,30 @@
   justify-content: center;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.back-to-top {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  top: -25px;
+  left: 0;
+  right: 0;
+  border-radius: 2px;
+  border: 3px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  z-index: 500;
+  cursor: pointer;
+  &:hover {
+    border: 3px solid #27719b;
+    background-color: rgb(66, 184, 253);
+  }
 }
 
 .footer-logo {
@@ -111,7 +136,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-top: 22px;
+  padding-top: 15px;
   text-align: center;
   font-size: 0.75em;
   a {
