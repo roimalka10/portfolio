@@ -12,7 +12,7 @@ const Home = () => {
         animate={{ opacity: 0.3 }}
         transition={{
           duration: 0.5,
-          delay: 2.4,
+          delay: 2.1,
         }}
       >
         <img src="https://res.cloudinary.com/noname-m-/image/upload/v1622245542/images/namelogo_hpncdo.png" />
@@ -25,7 +25,7 @@ const Home = () => {
             animate={{ x: 0 }}
             transition={{
               duration: 0.5,
-              delay: 0.7,
+              delay: 0.2,
               type: "spring",
               stiffness: 65,
             }}
@@ -38,7 +38,7 @@ const Home = () => {
             animate={{ x: 0 }}
             transition={{
               duration: 0.5,
-              delay: 1.2,
+              delay: 0.6,
               type: "spring",
               stiffness: 65,
             }}
@@ -54,7 +54,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 1.7,
+              delay: 1.1,
             }}
           >
             Latest Projects
@@ -66,7 +66,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 1.8,
+              delay: 1.1,
             }}
           >
             <li>
