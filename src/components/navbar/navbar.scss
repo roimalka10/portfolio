@@ -6,7 +6,7 @@
   padding: 0 30px;
   height: 72px;
   width: 100%;
-  background-color: black;
+  background-color: transparent;
   // background-color: #252934;
   z-index: 900;
   transition: all 0.4s ease;
@@ -21,11 +21,16 @@
   }
 }
 
+.navbar.active {
+  background-color: black;
+}
+
 .navbar-items > .active {
   color: rgb(66, 184, 253);
 }
 
 .logo {
+  z-index: 950;
   height: 55px;
   img {
     width: 105px;
@@ -43,10 +48,11 @@
   @media screen and (max-width: 900px) {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 100vh;
     width: 100%;
     position: absolute;
-    top: 72px;
+    top: 0px;
     right: -110%;
     opacity: 1;
     transition: all 0.4s ease;
@@ -116,7 +122,7 @@
   background-color: black;
   right: 0px;
   transition: all 0.4s ease;
-  z-index: 850;
+  z-index: 750;
 
   a {
     font-family: "montserrat", sans-serif;

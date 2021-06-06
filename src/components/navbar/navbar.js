@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import "./navbar.scss";
@@ -7,15 +7,26 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
   const handleClick = () => {
     setShowMenu(!showMenu);
   };
 
+  const changeBackground = () => {
+    if (window.scrollY >= 930) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeBackground);
+
   return (
     <>
       <motion.div
-        className="navbar"
+        className={navbar ? "navbar active" : "navbar"}
         initial={{ y: "-100vh" }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, delay: 0.6, type: "tween" }}
