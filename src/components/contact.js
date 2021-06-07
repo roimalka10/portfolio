@@ -3,13 +3,32 @@ import "./contact.scss";
 import { FaTimes } from "react-icons/fa";
 import { FaHtml5, FaGitAlt, FaReact, FaGithub, FaSass } from "react-icons/fa";
 import { SiCss3, SiVisualstudiocode, SiJavascript } from "react-icons/si";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
     <>
       <div id="contact-id">
-        <div className="contact">
-          <div className="contact-submit">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.5,
+          }}
+          className="contact"
+        >
+          <motion.div
+            initial={{ y: "150vh" }}
+            animate={{ y: 0 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.2,
+              type: "tween",
+              stiffness: 70,
+            }}
+            className="contact-submit"
+          >
             <div className="big-text2">Contact</div>
             <div className="submit-text">
               <a href="/header" className="back-icon">
@@ -64,8 +83,18 @@ const Contact = () => {
                 </form>
               </div>
             </div>
-          </div>
-          <div className="contact-about">
+          </motion.div>
+          <motion.div
+            initial={{ y: "-150vh" }}
+            animate={{ y: 0 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.2,
+              type: "tween",
+              stiffness: 70,
+            }}
+            className="contact-about"
+          >
             <div className="big-text">About</div>
             <div className="about-text">
               <div className="contact-text2">
@@ -134,8 +163,8 @@ const Contact = () => {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </>
   );
