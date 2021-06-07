@@ -33,7 +33,7 @@ const Header = () => {
           speedMultiplier={0.7}
         />
       ) : (
-        <div className="app">
+        <div className="header">
           <Navbar />
           <Home />
           <About />
