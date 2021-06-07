@@ -67,17 +67,9 @@ const Navbar = () => {
             <span>Projects</span>
           </Link>
 
-          <Link
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={15}
-            duration={0}
-            onClick={handleClick}
-          >
+          <a activeClass="active" className="span-contact" href="/contact">
             <span>Contact</span>
-          </Link>
+          </a>
           <div className="icons-navbar">
             <a href="https://github.com/roimalka10" target="_blank">
               <FaGithub size={40} />

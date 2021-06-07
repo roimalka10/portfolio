@@ -45,6 +45,10 @@
   align-items: center;
   height: 72px;
 
+  .span-contact {
+    color: #e5e6f7;
+  }
+
   @media screen and (max-width: 900px) {
     display: flex;
     flex-direction: column;
