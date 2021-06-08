@@ -9,9 +9,10 @@ const Projects = () => {
         <ul className="p-list">
           <li>
             <a
-              // href="https://www.google.co.il/webhp?hl=iw"
+              href="https://github.com/roimalka10/portfolio"
+              target="_blank"
               id="first"
-              className="project"
+              className="project1"
             >
               <div className="mask"></div>
               <div className="project-number">01</div>
@@ -20,10 +21,7 @@ const Projects = () => {
                 <h5 className="project-subtitle">
                   React | Sass | Framer Motion
                 </h5>
-                <button
-                  href="https://www.google.co.il/webhp?hl=iw"
-                  className="the-button"
-                >
+                <button className="the-button">
                   <span className="button-text">See Code</span>
                 </button>
               </div>
@@ -31,9 +29,10 @@ const Projects = () => {
           </li>
           <li>
             <a
-              // href="https://www.google.co.il/webhp?hl=iw"
+              href="https://github.com/roimalka10/portfolio"
+              target="_blank"
               id="first"
-              className="project"
+              className="project2"
             >
               <div className="mask2"></div>
               <div className="project-number2">02</div>
@@ -42,10 +41,7 @@ const Projects = () => {
                 <h5 className="project-subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </h5>
-                <button
-                  href="https://www.google.co.il/webhp?hl=iw"
-                  className="the-button"
-                >
+                <button className="the-button">
                   <span className="button-text">Case Study</span>
                 </button>
               </div>
@@ -53,9 +49,10 @@ const Projects = () => {
           </li>
           <li>
             <a
-              // href="https://www.google.co.il/webhp?hl=iw"
+              href="https://github.com/roimalka10/portfolio"
+              target="_blank"
               id="first"
-              className="project"
+              className="project3"
             >
               <div className="mask3"></div>
               <div className="project-number">03</div>
@@ -64,10 +61,7 @@ const Projects = () => {
                 <h5 className="project-subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </h5>
-                <button
-                  href="https://www.google.co.il/webhp?hl=iw"
-                  className="the-button"
-                >
+                <button className="the-button">
                   <span className="button-text">Case Study</span>
                 </button>
               </div>
