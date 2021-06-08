@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   const changeBackground = () => {
-    if (window.scrollY >= 930) {
+    if (window.scrollY >= 900) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -44,17 +44,6 @@ const Navbar = () => {
             onClick={handleClick}
           >
             <span>Home</span>
-          </Link>
-          <Link
-            activeClass="active"
-            to="about-id"
-            spy={true}
-            smooth={true}
-            offset={15}
-            duration={0}
-            onClick={handleClick}
-          >
-            <span>Knowledge</span>
           </Link>
           <Link
             activeClass="active"

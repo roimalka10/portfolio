@@ -49,7 +49,7 @@ const Home = () => {
 
           <motion.a
             className="btn"
-            href="/projects"
+            href="#projects"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{

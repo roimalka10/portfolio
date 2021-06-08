@@ -4,8 +4,8 @@ import BarLoader from "react-spinners/BarLoader";
 import { css, jsx } from "@emotion/react";
 import Navbar from "./navbar";
 import Home from "./home";
-import About from "./about";
 import Footer from "./footer";
+import Projects from "./projects";
 
 const Header = () => {
   const [loading, setLoading] = useState(false);
@@ -36,7 +36,7 @@ const Header = () => {
         <div className="header">
           <Navbar />
           <Home />
-          <About />
+          <Projects />
           <Footer />
         </div>
       )}
