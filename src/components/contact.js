@@ -19,7 +19,7 @@ const Contact = () => {
           className="contact"
         >
           <motion.div
-            initial={{ y: "150vh" }}
+            initial={{ y: "-150vh" }}
             animate={{ y: 0 }}
             transition={{
               duration: 0.8,
@@ -85,7 +85,7 @@ const Contact = () => {
             </div>
           </motion.div>
           <motion.div
-            initial={{ y: "-150vh" }}
+            initial={{ y: "150vh" }}
             animate={{ y: 0 }}
             transition={{
               duration: 0.8,
