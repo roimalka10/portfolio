@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./header.scss";
 import BarLoader from "react-spinners/BarLoader";
 import { css, jsx } from "@emotion/react";
+import { motion } from "framer-motion";
 import Navbar from "./navbar";
 import Home from "./home";
 import Footer from "./footer";
@@ -14,24 +15,25 @@ const Header = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1400);
+    }, 1700);
   }, []);
 
   return (
-    <div className="header">
+    <div className="Header">
       {loading ? (
-        <BarLoader
-          color={"rgb(66, 184, 253)"}
-          height={"100vh"}
-          width={"100vw"}
-          css={css`
-            position: absolute;
-            background-color: rgb(24, 24, 24);
-          `}
-          loading={loading}
-          size={20}
-          speedMultiplier={0.7}
-        />
+        <motion.div
+          className="home-title"
+          initial={{ x: "-140vw" }}
+          animate={{ x: "0vw" }}
+          transition={{
+            duration: 0.8,
+            delay: 0.2,
+            type: "tween",
+            stiffness: 65,
+          }}
+        >
+          <div className="loader"></div>
+        </motion.div>
       ) : (
         <div className="header">
           <Navbar />
