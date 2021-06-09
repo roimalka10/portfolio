@@ -37,12 +37,12 @@ const Projects = () => {
               <div className="mask2"></div>
               <div className="project-number2">02</div>
               <div className="text-section2">
-                <h3 className="project-title">Chat App</h3>
+                <h3 className="project-title">Second Project</h3>
                 <h5 className="project-subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </h5>
                 <button className="the-button">
-                  <span className="button-text">Case Study</span>
+                  <span className="button-text">See Code</span>
                 </button>
               </div>
             </a>
@@ -62,7 +62,7 @@ const Projects = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </h5>
                 <button className="the-button">
-                  <span className="button-text">Case Study</span>
+                  <span className="button-text">See Code</span>
                 </button>
               </div>
             </a>

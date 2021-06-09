@@ -59,6 +59,9 @@ const Navbar = () => {
           <a activeClass="active" className="span-contact" href="/contact">
             <span>Contact</span>
           </a>
+          <a activeClass="active" className="span-resume" /* href="/contact"*/>
+            <span>Resume</span>
+          </a>
           <div className="icons-navbar">
             <a href="https://github.com/roimalka10" target="_blank">
               <FaGithub size={40} />
