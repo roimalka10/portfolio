@@ -23,11 +23,10 @@ const Header = () => {
       {loading ? (
         <motion.div
           className="home-title"
-          initial={{ x: "-140vw" }}
-          animate={{ x: "0vw" }}
+          initial={{ x: "0vw" }}
+          animate={{ x: "100vw" }}
           transition={{
             duration: 0.8,
-            delay: 0.2,
             type: "tween",
             stiffness: 65,
           }}
