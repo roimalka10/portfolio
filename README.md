@@ -1,37 +1,25 @@
 
-## Available Scripts
+# Personal Portfolio
 
-In the project directory, you can run:
+#### A personal portfolio website made with React and Framer Motion for animations.
 
-### `npm start`
+## Lessons Learned
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+My Third React project, really enjoyed the usage of hooks throughout the project.
+I wanted to write everything manually from design to media queries
+so i could learn from my mistakes which helped me immensely especially in the mobile design.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Potential Future Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- A third and fourth projects added to the list to better showcase my skills 
+- A specifically made Particles.js background for the home page 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Used Create-React-App for this project so to run locally
+```
+git clone
+npm/yarn install
+npm/yarn start
+```
+- Mostly Used Scss, Flexbox, Media-Queries for styling, layouting and responsiveness, haven't used any css framework in this
+- Used Framer Motion for majority of the animations
