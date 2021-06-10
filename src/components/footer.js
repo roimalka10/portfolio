@@ -41,6 +41,14 @@ const Footer = () => {
               </a>
             </li>
             <li>
+              <a
+                href="https://drive.google.com/file/d/1fyYQMoyPKJs9oNErZJ9I5dgldHznM8P3/view?usp=sharing"
+                target="_blank"
+              >
+                <span>Resume</span>
+              </a>
+            </li>
+            <li>
               <a href="https://github.com/roimalka10" target="_blank">
                 <span>Github</span>
               </a>
