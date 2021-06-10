@@ -59,7 +59,12 @@ const Navbar = () => {
           <a activeClass="active" className="span-contact" href="/contact">
             <span>Contact</span>
           </a>
-          <a activeClass="active" className="span-resume" /* href="/contact"*/>
+          <a
+            activeClass="active"
+            className="span-resume"
+            href="https://drive.google.com/file/d/1fyYQMoyPKJs9oNErZJ9I5dgldHznM8P3/view?usp=sharing"
+            target="_blank"
+          >
             <span>Resume</span>
           </a>
           <div className="icons-navbar">
