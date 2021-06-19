@@ -22,7 +22,7 @@ const Projects = () => {
       (project) =>
         new hoverEffect({
           parent: wrappers.current[project.id - 1].current,
-          intensity: 0.4,
+          intensity: 0.5,
           imagesRatio: 1080 / 1920,
           image1: project.img,
           image2: project.img2,
@@ -53,7 +53,7 @@ const Projects = () => {
               </div>
               <p>{project.type}</p>
               <button className="btn">
-                <span>See Code</span>
+                <span>Watch Live</span>
               </button>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
