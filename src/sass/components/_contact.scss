@@ -1,6 +1,6 @@
 #contact-id {
   height: 100vh;
-  background-color: #191a22;
+  background-color: $background;
   z-index: -20;
 }
 
@@ -46,6 +46,10 @@
     .contact-text2 {
       padding-top: 20px;
     }
+    .big-text,
+    .big-text2 {
+      display: none;
+    }
   }
 }
 
@@ -53,7 +57,7 @@
   position: relative;
   width: 50%;
   z-index: 20;
-  background-color: #1c1d25;
+  background-color: $background;
 }
 
 .big-text2 {
@@ -71,7 +75,7 @@
 .submit-text {
   padding-top: 75px;
   text-align: left;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -93,15 +97,16 @@
   width: 100%;
 
   h2 {
-    font-size: 28px;
+    font-family: $ff1;
+    font-size: 42px;
+    letter-spacing: 2px;
     color: #fff;
   }
   p {
-    font-style: italic;
-    font-weight: 500;
     color: #fff;
-
-    font-size: 14px;
+    font-family: $ff4;
+    font-size: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -117,21 +122,20 @@
   }
 
   label {
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
-    font-family: "League Spartan", Helvetica, Arial, sans-serif;
-    font-weight: 800;
-    letter-spacing: 2px;
+    font-family: $ff5;
+    letter-spacing: 2.5px;
   }
 
   .form-padding {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 .inputs {
   width: 100%;
-  background-color: #1c1d25;
+  background-color: $background;
   padding: 5px 9px;
   border: 0;
   outline: none;
@@ -140,7 +144,7 @@
   border-radius: 0;
   transition: all 0.4s ease;
   &:focus {
-    background-color: #1c1d25;
+    background-color: $background;
     border-bottom: 2px solid rgb(66, 184, 253);
   }
   &:hover {
@@ -156,11 +160,9 @@ textarea {
   padding: 10px 20px;
   margin-top: 20px;
   width: 100%;
-  font-family: "League Spartan", Helvetica, Arial, sans-serif;
-  font-weight: 800;
   cursor: pointer;
   text-decoration: none;
-  letter-spacing: 2px;
+
   background-color: transparent;
   color: #fff;
   position: relative;
@@ -171,7 +173,10 @@ textarea {
 
   .button-text {
     position: relative;
-    font-size: 18px;
+    font-family: $ff1;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: 3px;
     z-index: 25;
   }
 
@@ -201,7 +206,7 @@ textarea {
 .contact-about {
   position: relative;
   width: 50%;
-  background-color: #ebebeb;
+  background-color: $primary;
   z-index: 10;
 }
 
@@ -220,7 +225,7 @@ textarea {
 .about-text {
   padding-top: 30px;
   text-align: left;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -230,29 +235,34 @@ textarea {
   transition: all 0.3s ease;
 
   h2 {
-    font-size: 28px;
-    color: #1c1d25;
+    font-family: $ff1;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: $background;
   }
   .p-text2 {
-    font-style: italic;
-    font-weight: 500;
-    color: #1c1d25;
-
-    font-size: 14px;
+    font-family: $ff4;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: $background;
   }
 }
 
 .about-me-text {
   margin-top: 20px;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 18px;
+  font-family: $ff5;
+  letter-spacing: 0.8px;
+  color: $background;
   strong {
     color: #2974a0;
+    font-size: 20px;
   }
 }
 
 .about-me-list {
-  padding-top: 20px;
+  padding-top: 40px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -270,7 +280,7 @@ textarea {
   }
 
   h3 {
-    color: #1c1d25;
+    color: $background;
     font-family: "League Spartan", Helvetica, Arial, sans-serif;
     font-weight: 800;
   }
@@ -284,56 +294,64 @@ textarea {
 }
 
 .icon-html5 {
-  color: #1c1d25;
+  color: $background;
+  transition: all 0.3s ease-out;
   &:hover {
     color: #e34f26;
     transition: all 0.3s ease-out;
   }
 }
 .icon-css3 {
-  color: #1c1d25;
+  color: $background;
+  transition: all 0.3s ease-out;
   &:hover {
     color: #1572b6;
     transition: all 0.3s ease-out;
   }
 }
 .icon-javascript {
-  color: #1c1d25;
+  color: $background;
+  transition: all 0.3s ease-out;
   &:hover {
     color: #f7df1e;
     transition: all 0.3s ease-out;
   }
 }
 .icon-react {
-  color: #1c1d25;
+  color: $background;
+  transition: all 0.3s ease-out;
   &:hover {
     color: #61dafb;
     transition: all 0.3s ease-out;
   }
 }
 .icon-git {
-  color: #1c1d25;
+  color: $background;
+  transition: all 0.3s ease-out;
   &:hover {
     color: #f05032;
     transition: all 0.3s ease-out;
   }
 }
 .icon-github {
-  color: #1c1d25;
+  color: $background;
+  transition: all 0.3s ease-out;
   &:hover {
     color: #2d333b;
     transition: all 0.3s ease-out;
   }
 }
 .icon-npm {
-  color: #1c1d25;
+  color: $background;
+  transition: all 0.3s ease-out;
   &:hover {
     color: #cb3837;
     transition: all 0.3s ease-out;
   }
 }
 .icon-vscode {
-  color: #1c1d25;
+  color: $background;
+  transition: all 0.3s ease-out;
   &:hover {
     color: #007acc;
     transition: all 0.3s ease-out;
@@ -341,7 +359,8 @@ textarea {
   // #007ACC
 }
 .icon-sass {
-  color: #1c1d25;
+  color: $background;
+  transition: all 0.3s ease-out;
   &:hover {
     color: #cf649a;
     transition: all 0.3s ease-out;

@@ -1,6 +1,6 @@
 import portfolio from "../images/project1.jpg";
 import trainer from "../images/training.jpg";
-import nasaApi from "../images/Lastbackground.jpg";
+import nasaApi from "../images/stars.jpg";
 import distorted from "../images/distorted.jpg";
 
 export const projects = [
