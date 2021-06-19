@@ -21,5 +21,5 @@ git clone
 npm/yarn install
 npm/yarn start
 ```
-- Mostly Used Scss, Flexbox, Media-Queries for styling, layouting and responsiveness, haven't used any css framework in this
+- Mostly Used Scss, Flexbox, Media-Queries for styling, layout and responsiveness, haven't used any css framework in this
 - Used Framer Motion for majority of the animations
