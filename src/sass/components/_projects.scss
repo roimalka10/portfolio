@@ -1,0 +1,472 @@
+#projects {
+  position: relative;
+  width: 100%;
+  display: block;
+  background-color: #161616;
+}
+
+.p-content {
+  width: 1000px;
+  margin: 0 auto;
+  @media only screen and (min-width: 1200px) {
+    width: 1170px;
+  }
+  @media only screen and (max-width: 1020px) {
+    width: 95%;
+  }
+}
+
+.p-text {
+  text-align: center;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    text-transform: capitalize;
+    font-family: $ff1;
+    font-size: 25rem;
+    color: $primary;
+    margin: 0 5rem;
+  }
+}
+
+.p-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    cursor: pointer;
+    margin-bottom: 30rem;
+
+    .project1 {
+      display: block;
+      height: 100%;
+      width: 80%;
+      opacity: 1;
+      height: 480px;
+      background-color: #1c1d25;
+      position: relative;
+      box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 45%);
+      margin-left: auto;
+      margin-right: auto;
+      // background-image: url(./images/project1.jpg);
+      background-position: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translateX(25px);
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0.5px;
+        opacity: 0.5;
+        background: #e5e6f7;
+        top: -13rem;
+        left: 0;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0.5px;
+        opacity: 0.5;
+        background: #e5e6f7;
+
+        bottom: -13rem;
+        left: 0;
+      }
+
+      @media only screen and (max-width: 1020px) {
+        transform: translateX(0px);
+      }
+
+      @media only screen and (min-width: 700px) {
+        &:hover {
+          .text-section {
+            transition: all 0.4s ease-out;
+            transition-delay: 0.3s;
+            transform: scale(1.08);
+          }
+          .project-number {
+            transition: all 0.4s ease-out;
+            opacity: 1;
+            top: -90px;
+          }
+          .project-number3 {
+            transition: all 0.4s ease-out;
+            opacity: 1;
+            top: -90px;
+          }
+        }
+      }
+      @media only screen and (max-width: 900px) {
+        width: 90%;
+        height: 420px;
+      }
+      @media only screen and (max-width: 665px) {
+        height: 340px;
+        margin-bottom: 60px;
+      }
+    }
+    .project2 {
+      display: block;
+      height: 100%;
+      width: 80%;
+      opacity: 1;
+      height: 480px;
+      background-color: #1c1d25;
+      position: relative;
+      box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 45%);
+      margin-left: auto;
+      margin-right: auto;
+      // background-image: url(../images/Lastbackground.jpg);
+      background-position: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translateX(-25px);
+
+      &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: block;
+        content: " ";
+        background: #1c1d25;
+        opacity: 0.55;
+        transition: opacity 0.1s ease;
+        z-index: -20;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0.5px;
+        opacity: 0.5;
+        background: #e5e6f7;
+
+        bottom: -13rem;
+        left: 0;
+      }
+
+      @media only screen and (max-width: 1020px) {
+        transform: translateX(0px);
+      }
+
+      @media only screen and (min-width: 700px) {
+        &:hover {
+          .text-section2 {
+            transition: all 0.4s ease-out;
+            transition-delay: 0.3s;
+            transform: scale(1.08);
+          }
+          // .project-number {
+          //   transition: all 0.4s ease-out;
+          //   opacity: 1;
+          //   top: -90px;
+          // }
+          .project-number2 {
+            transition: all 0.4s ease-out;
+            opacity: 1;
+            top: -90px;
+          }
+        }
+      }
+      @media only screen and (max-width: 900px) {
+        width: 90%;
+        height: 420px;
+      }
+      @media only screen and (max-width: 665px) {
+        height: 340px;
+        margin-bottom: 60px;
+      }
+    }
+    .project3 {
+      display: block;
+      height: 100%;
+      width: 80%;
+      opacity: 1;
+      height: 480px;
+      background-color: #1c1d25;
+      position: relative;
+      box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 45%);
+      margin-left: auto;
+      margin-right: auto;
+      // background-image: url(../images/Lastbackground.jpg);
+      background-position: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      transform: translateX(25px);
+
+      &:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        display: block;
+        content: " ";
+        background: #1c1d25;
+        opacity: 0.5;
+        transition: opacity 0.3s ease;
+        z-index: -20;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0.5px;
+        opacity: 0.5;
+        background: #e5e6f7;
+
+        bottom: -13rem;
+        left: 0;
+      }
+
+      @media only screen and (max-width: 1020px) {
+        transform: translateX(0px);
+      }
+
+      @media only screen and (min-width: 700px) {
+        &:hover {
+          .text-section {
+            transition: all 0.4s ease-out;
+            transition-delay: 0.3s;
+            transform: scale(1.08);
+          }
+          .project-number {
+            transition: all 0.4s ease-out;
+            opacity: 1;
+            top: -90px;
+          }
+          .project-number3 {
+            transition: all 0.4s ease-out;
+            opacity: 1;
+            top: -90px;
+          }
+        }
+      }
+      @media only screen and (max-width: 900px) {
+        width: 90%;
+        height: 420px;
+      }
+      @media only screen and (max-width: 665px) {
+        height: 340px;
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
+//mask not working on number or text!!!!
+
+.project-number {
+  opacity: 0;
+  z-index: 25;
+  display: block;
+  position: absolute;
+  top: -60px;
+  right: -45px;
+  width: 265px;
+  height: 230px;
+  font-size: 220px;
+  overflow: hidden;
+  font-family: "League Spartan", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #e5e6f7;
+  transition: all 0.4s ease-out;
+}
+.project-number2 {
+  opacity: 0;
+  z-index: 25;
+  display: block;
+  position: absolute;
+  top: -60px;
+  right: auto;
+  left: -45px;
+  width: 265px;
+  height: 230px;
+  font-size: 220px;
+  overflow: hidden;
+  font-family: "League Spartan", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #e5e6f7;
+  transition: all 0.4s ease-out;
+}
+
+.text-section {
+  position: absolute;
+  left: 90px;
+  bottom: 90px;
+  color: #e5e6f7;
+  z-index: 10;
+  max-width: 550px;
+  transition: all 0.7s ease-out;
+  transition-delay: 0.3s;
+  @media only screen and (max-width: 700px) {
+    left: 45px;
+    bottom: 60px;
+    max-width: 500px;
+  }
+
+  .project-title {
+    font-family: $ff1;
+    letter-spacing: 2px;
+    font-size: 28px;
+    @media only screen and (min-width: 700px) {
+      font-size: 40px;
+    }
+    @media only screen and (min-width: 900px) {
+      font-size: 55px;
+    }
+  }
+
+  .project-subtitle {
+    font-family: $ff2;
+    font-size: 16px;
+    margin-bottom: 20px;
+    @media only screen and (min-width: 700px) {
+      font-size: 22px;
+    }
+  }
+
+  .the-button {
+    display: inline-block;
+    padding: 6px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    color: $primary;
+    position: relative;
+    outline: none !important;
+    border-radius: 2px;
+    border: 3px solid $primary;
+    transition: all 0.4s ease;
+    .button-text {
+      font-family: $ff1;
+      font-weight: 800;
+      font-size: 22px;
+      letter-spacing: 2px;
+    }
+
+    &:after {
+      z-index: -2;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(66, 184, 253);
+      transition: all 0.4s ease;
+    }
+
+    &:hover:after {
+      top: 0;
+      height: 100%;
+    }
+    &:hover {
+      border: 3px solid #27719b;
+      color: black;
+    }
+    &:focus:after {
+      top: 0;
+      height: 100%;
+    }
+    &:focus {
+      border: 3px solid #27719b;
+      color: black;
+    }
+  }
+}
+.text-section2 {
+  position: absolute;
+  left: auto;
+  text-align: right;
+  right: 90px;
+  bottom: 90px;
+  color: #e5e6f7;
+  z-index: 10;
+  max-width: 585px;
+  transition: all 0.7s ease-out;
+  transition-delay: 0.3s;
+  @media only screen and (max-width: 700px) {
+    left: 45px;
+    right: 45px;
+    bottom: 60px;
+    max-width: 500px;
+  }
+
+  .project-title {
+    font-family: $ff1;
+    letter-spacing: 2px;
+    font-size: 28px;
+    @media only screen and (min-width: 700px) {
+      font-size: 40px;
+    }
+    @media only screen and (min-width: 900px) {
+      font-size: 55px;
+    }
+  }
+
+  .project-subtitle {
+    font-family: $ff2;
+    font-size: 16px;
+    margin-bottom: 20px;
+    @media only screen and (min-width: 700px) {
+      font-size: 22px;
+    }
+  }
+
+  .the-button {
+    display: inline-block;
+    padding: 6px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    color: $primary;
+    position: relative;
+    outline: none !important;
+    border-radius: 2px;
+    border: 3px solid $primary;
+    transition: all 0.4s ease;
+    .button-text {
+      font-family: $ff1;
+      font-weight: 800;
+      font-size: 22px;
+      letter-spacing: 2px;
+    }
+
+    &:after {
+      z-index: -2;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(66, 184, 253);
+      transition: all 0.4s ease;
+    }
+
+    &:hover:after {
+      top: 0;
+      height: 100%;
+    }
+    &:hover {
+      border: 3px solid #27719b;
+      color: black;
+    }
+    &:focus:after {
+      top: 0;
+      height: 100%;
+    }
+    &:focus {
+      border: 3px solid #27719b;
+      color: black;
+    }
+  }
+}
