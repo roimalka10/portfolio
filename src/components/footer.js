@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.scss";
+
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { RiArrowUpSLine } from "react-icons/ri";
@@ -33,28 +33,26 @@ const Footer = () => {
             alt="Roi Malka's Personal Logo"
           />
         </a>
-        <div className="footer-links">
-          <ul className="links">
-            <li>
-              <a href="https://www.linkedin.com/in/roi-malka/" target="_blank">
-                <span>Linkedin</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://drive.google.com/file/d/1fyYQMoyPKJs9oNErZJ9I5dgldHznM8P3/view?usp=sharing"
-                target="_blank"
-              >
-                <span>Resume</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/roimalka10" target="_blank">
-                <span>Github</span>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul className="links">
+          <li>
+            <a href="https://www.linkedin.com/in/roi-malka/" target="_blank">
+              Linkedin
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1fyYQMoyPKJs9oNErZJ9I5dgldHznM8P3/view?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/roimalka10" target="_blank">
+              Github
+            </a>
+          </li>
+        </ul>
         <div className="footer-copy">
           <p>© 2021 Roi Malka - </p>
           <a href="mailto:roimalka10@gmail.com"> Contact</a>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./contact.scss";
+
 import { FaTimes } from "react-icons/fa";
 import { FaHtml5, FaGitAlt, FaReact, FaGithub, FaSass } from "react-icons/fa";
 import { SiCss3, SiVisualstudiocode, SiJavascript } from "react-icons/si";

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./header.scss";
+
 import BarLoader from "react-spinners/BarLoader";
 import { css, jsx } from "@emotion/react";
 import { motion } from "framer-motion";
@@ -15,7 +15,7 @@ const Header = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1700);
+    }, 1300);
   }, []);
 
   return (
@@ -26,7 +26,7 @@ const Header = () => {
           initial={{ x: "0vw" }}
           animate={{ x: "100vw" }}
           transition={{
-            duration: 0.8,
+            duration: 1.2,
             type: "tween",
             stiffness: 65,
           }}

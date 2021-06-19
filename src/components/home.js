@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.scss";
+
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -43,8 +43,10 @@ const Home = () => {
               stiffness: 65,
             }}
           >
-            <h3>Front-end Web Developer</h3>
-            {/* i build amazing experiences */}
+            <h3>
+              Front-end Developer
+              <br /> & Designer
+            </h3>
           </motion.div>
 
           <motion.a

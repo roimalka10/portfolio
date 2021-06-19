@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import "./navbar.scss";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   const changeBackground = () => {
-    if (window.scrollY >= 900) {
+    if (window.scrollY >= 70) {
       setNavbar(true);
     } else {
       setNavbar(false);
