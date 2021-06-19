@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "League Spartan";
+  src: url(../fonts/LeagueSpartan-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url(../fonts/LeagueSpartan-Bold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url(../fonts/LeagueSpartan-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url(../fonts/LeagueSpartan-SemiBold.otf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Walkway-SemiBold";
+  src: url(../fonts/Walkway_SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Walkway-Bold";
+  src: url(../fonts/Walkway_Bold.ttf);
+}
+
+@font-face {
+  font-family: "Walkway-UltraBold";
+  src: url(../fonts/Walkway_UltraBold.ttf);
+}
+
+@font-face {
+  font-family: "Bigilla";
+  src: url(../fonts/Bigilla.otf);
+}
+
+@font-face {
+  font-family: "Bigilla-Bold";
+  src: url(../fonts/Bigilla-Bold.otf);
+}
+
+:root {
+  --primary: #e5e6f7;
+}
+
+$primary: var(--primary);
+$ff1: "Bigilla", "san-serif";
+$ff2: "Walkway-SemiBold", serif;
+$ff3: "Walkway-Bold", serif;
+$ff4: "Walkway-UltraBold", serif;

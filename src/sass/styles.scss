@@ -1,0 +1,50 @@
+@import "./variable";
+@import "./components/header";
+@import "./components/home";
+@import "./components/navbar";
+@import "./components/contact";
+@import "./components/projects";
+@import "./components/footer";
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+
+  @media (max-width: 1800px) {
+    font-size: 8.5px;
+  }
+
+  @media (max-width: 1600px) {
+    font-size: 7.5px;
+  }
+
+  @media (max-width: 1450px) {
+    font-size: 7px;
+  }
+
+  @media (max-width: 1300px) {
+    font-size: 6.5px;
+  }
+
+  @media (max-width: 900px) {
+    font-size: 5px;
+  }
+
+  @media (max-width: 750px) {
+    font-size: 4px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 3.7px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-thumb {
+  background: $primary;
+}
+::-webkit-scrollbar-track {
+  background-color: #161616;
+}
