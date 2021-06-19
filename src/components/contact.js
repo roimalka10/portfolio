@@ -116,49 +116,49 @@ const Contact = () => {
                   <span className="icon-html5 spancss">
                     <FaHtml5 className="icon-size" />
                   </span>
-                  <h3>HTML5</h3>
+                  <span> HTML5</span>
                 </li>
                 <li className="icon1">
                   <span className="icon-css3 spancss">
                     <SiCss3 size={15} className="icon-size" />
                   </span>
-                  <h3>CSS3</h3>
+                  <span> CSS3</span>
                 </li>
                 <li className="icon1">
                   <span className="icon-javascript spancss">
                     <SiJavascript size={15} className="icon-size" />
                   </span>
-                  <h3>JavaScript</h3>
+                  <span> JavaScript</span>
                 </li>
                 <li className="icon1">
                   <span className="icon-react spancss">
                     <FaReact size={15} className="icon-size" />
                   </span>
-                  <h3>React</h3>
+                  <span> React</span>
                 </li>
                 <li className="icon1">
                   <span className="icon-git spancss">
                     <FaGitAlt size={15} className="icon-size" />
                   </span>
-                  <h3>Git</h3>
+                  <span> Git</span>
                 </li>
                 <li className="icon1">
                   <span className="icon-github spancss">
                     <FaGithub size={15} className="icon-size" />
                   </span>
-                  <h3>GitHub</h3>
+                  <span> GitHub</span>
                 </li>
                 <li className="icon1">
                   <span className="icon-vscode spancss">
                     <SiVisualstudiocode size={15} className="icon-size" />
                   </span>
-                  <h3>VSCode</h3>
+                  <span> VSCode</span>
                 </li>
                 <li className="icon1">
                   <span className="icon-sass spancss">
                     <FaSass size={15} className="icon-size" />
                   </span>
-                  <h3>Sass</h3>
+                  <span> Sass</span>
                 </li>
               </ul>
             </div>

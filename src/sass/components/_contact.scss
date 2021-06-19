@@ -279,7 +279,9 @@ textarea {
     padding-bottom: 10px;
   }
 
-  h3 {
+  span {
+    display: block;
+    text-align: center;
     color: $background;
     font-family: "League Spartan", Helvetica, Arial, sans-serif;
     font-weight: 800;
