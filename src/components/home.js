@@ -21,26 +21,22 @@ const Home = () => {
         <div className="home-content-main">
           <motion.div
             className="home-title"
-            initial={{ x: "-100vw" }}
-            animate={{ x: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 0.2,
-              type: "spring",
-              stiffness: 65,
+              delay: 0.6,
             }}
           >
             <h1>Roi Malka</h1>
           </motion.div>
           <motion.div
             className="home-subtitle"
-            initial={{ x: "-100vw" }}
-            animate={{ x: 0 }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 0.6,
-              type: "spring",
-              stiffness: 65,
+              delay: 0.9,
             }}
           >
             <h3>
