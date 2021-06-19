@@ -1,14 +1,30 @@
-import React from "react";
-import "./projects.scss";
+import React, { useEffect, useRef, useState } from "react";
+
+import { motion, useTransform, useViewportScroll } from "framer-motion";
 import Fade from "react-reveal/Fade";
 
 const Projects = () => {
+  const { scrollYProgress } = useViewportScroll();
+
+  const x = useTransform(scrollYProgress, [0.9, 0.1], [1000, 0]);
+
+  const x2 = useTransform(scrollYProgress, [0.9, 0.1], [500, 0]);
+
+  const [size, setSize] = useState(window.innerHeight);
   return (
     <section id="projects">
       <div className="p-content">
-        <Fade top duration={700}>
-          <div className="p-text">Projects</div>
-        </Fade>
+        <motion.h1 style={{ x: size > 600 ? x : x2 }} className="p-text">
+          {" "}
+          <span>projects </span>
+          <span>projects </span>
+          <span>projects </span>
+          <span>projects </span>
+          <span>projects </span>
+          <span>projects </span>
+          <span>projects </span>
+          <span>projects </span>
+        </motion.h1>
         <ul className="p-list">
           <li>
             <a
