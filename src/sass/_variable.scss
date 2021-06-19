@@ -38,6 +38,11 @@
 }
 
 @font-face {
+  font-family: "Walkway-Oblique-black";
+  src: url(../fonts/Walkway_Oblique_Black.ttf);
+}
+
+@font-face {
   font-family: "Bigilla";
   src: url(../fonts/Bigilla.otf);
 }
@@ -49,10 +54,13 @@
 
 :root {
   --primary: #e5e6f7;
+  --background: #161616;
 }
 
 $primary: var(--primary);
+$background: var(--background);
 $ff1: "Bigilla", "san-serif";
 $ff2: "Walkway-SemiBold", serif;
 $ff3: "Walkway-Bold", serif;
 $ff4: "Walkway-UltraBold", serif;
+$ff5: "Walkway-Oblique-black", serif;
