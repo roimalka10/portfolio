@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.scss";
+import "./sass/styles.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Contact from "./components/contact";
