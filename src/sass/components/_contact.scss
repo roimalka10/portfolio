@@ -136,19 +136,19 @@
 .inputs {
   width: 100%;
   background-color: $background;
-  padding: 5px 9px;
+  padding: 10px 9px;
   border: 0;
   outline: none;
   color: white;
-  border-bottom: 2px solid white;
+  border: 2px solid white;
   border-radius: 0;
   transition: all 0.4s ease;
   &:focus {
     background-color: $background;
-    border-bottom: 2px solid rgb(66, 184, 253);
+    border: 2px solid rgb(66, 184, 253);
   }
   &:hover {
-    border-bottom: 2px solid rgb(66, 184, 253);
+    border: 2px solid rgb(66, 184, 253);
   }
 }
 textarea {
