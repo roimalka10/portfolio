@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from "react";
-
-import BarLoader from "react-spinners/BarLoader";
-import { css, jsx } from "@emotion/react";
 import { motion } from "framer-motion";
 import Navbar from "./navbar";
 import Home from "./home";
@@ -15,7 +12,7 @@ const Header = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1300);
+    }, 1550);
   }, []);
 
   return (

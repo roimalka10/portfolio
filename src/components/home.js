@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-scroll";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -12,7 +12,7 @@ const Home = () => {
         animate={{ opacity: 0.3 }}
         transition={{
           duration: 0.5,
-          delay: 2.1,
+          delay: 2.3,
         }}
       >
         <img src="https://res.cloudinary.com/noname-m-/image/upload/v1622245542/images/namelogo_hpncdo.png" />
@@ -25,7 +25,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 0.6,
+              delay: 0.8,
             }}
           >
             <h1>Roi Malka</h1>
@@ -36,7 +36,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 0.9,
+              delay: 1.1,
             }}
           >
             <h3>
@@ -44,27 +44,31 @@ const Home = () => {
               <br /> & Designer
             </h3>
           </motion.div>
-
-          <motion.a
-            className="btn"
-            href="#projects"
+          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 1.1,
+              delay: 1.3,
             }}
           >
-            Latest Projects
-          </motion.a>
-
+            <Link
+              className="btn"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={0}
+            >
+              Latest Projects
+            </Link>
+          </motion.div>
           <motion.ul
             className="icons"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
               duration: 0.5,
-              delay: 1.1,
+              delay: 1.3,
             }}
           >
             <li>

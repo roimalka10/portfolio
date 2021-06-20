@@ -31,7 +31,7 @@ const Navbar = () => {
         animate={{ y: 0 }}
         transition={{ duration: 0.6, delay: 0.6, type: "tween" }}
       >
-        <a href="/header" className="logo">
+        <a href="/" className="logo">
           <img src="https://res.cloudinary.com/noname-m-/image/upload/v1622245542/images/namelogo_hpncdo.png" />
         </a>
         <div className={showMenu ? "navbar-items active" : "navbar-items"}>

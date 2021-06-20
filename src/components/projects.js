@@ -31,7 +31,7 @@ const Projects = () => {
     );
   }, []);
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <motion.h1 style={{ x: size > 600 ? x : x2 }} className="p-text">
         {" "}
         <span>projects </span>
@@ -53,7 +53,7 @@ const Projects = () => {
               </div>
               <p>{project.type}</p>
               <button className="btn">
-                <span>Watch Live</span>
+                <span>See Code</span>
               </button>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">

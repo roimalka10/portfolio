@@ -30,7 +30,7 @@ const Contact = () => {
           >
             <div className="big-text2">Contact</div>
             <div className="submit-text">
-              <a href="/header" className="back-icon">
+              <a href="/" className="back-icon">
                 <FaTimes size={45} />
               </a>
               <div className="contact-text">
