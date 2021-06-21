@@ -12,7 +12,7 @@ const Header = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1550);
+    }, 1300);
   }, []);
 
   return (
@@ -24,8 +24,7 @@ const Header = () => {
           animate={{ x: "100vw" }}
           transition={{
             duration: 1.2,
-            type: "tween",
-            stiffness: 65,
+            delay: 0.4,
           }}
         >
           <div className="loader"></div>

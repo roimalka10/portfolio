@@ -12,7 +12,7 @@ const Home = () => {
         animate={{ opacity: 0.3 }}
         transition={{
           duration: 0.5,
-          delay: 2.3,
+          delay: 2,
         }}
       >
         <img src="https://res.cloudinary.com/noname-m-/image/upload/v1622245542/images/namelogo_hpncdo.png" />
