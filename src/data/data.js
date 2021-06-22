@@ -4,6 +4,8 @@ import trainer from "../images/training.jpg";
 import trainer2 from "../images/training2.jpg";
 import nasa2 from "../images/nasa2.jpg";
 import wildfire from "../images/wildfire.jpg";
+import tesla from "../images/tesla.jpg";
+import tesla2 from "../images/tesla2.jpg";
 import distorted from "../images/distorted.jpg";
 import distorted2 from "../images/distorted2.jpeg";
 import distorted3 from "../images/distorted3.jpg";
@@ -35,5 +37,14 @@ export const projects = [
     distort: distorted2,
     type: "React / Sass / Framer Motion",
     link: "https://github.com/roimalka10/Fitness-website",
+  },
+  {
+    id: 4,
+    title: "Tesla Clone",
+    img: tesla,
+    img2: tesla2,
+    distort: distorted,
+    type: "React / Styled Components",
+    link: "https://github.com/roimalka10/tesla-clone",
   },
 ];
