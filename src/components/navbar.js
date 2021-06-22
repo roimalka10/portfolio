@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
