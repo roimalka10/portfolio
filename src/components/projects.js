@@ -52,13 +52,9 @@ const Projects = () => {
                 <h3>{project.title}</h3>
               </div>
               <p>{project.type}</p>
-              <button
-                className="btn"
-                href="https://github.com/roimalka10/tesla-clone"
-                target="_blank"
-              >
+              <a className="btn" href={project.github} target="_blank">
                 <span>See Code</span>
-              </button>
+              </a>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <div
