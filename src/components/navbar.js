@@ -55,7 +55,7 @@ const Navbar = () => {
             <span>Projects</span>
           </Link>
 
-          <a activeClass="active" className="span-contact" href="/contact">
+          <a activeClass="active" className="span-contact" href="#contact">
             <span>Contact</span>
           </a>
           <a
