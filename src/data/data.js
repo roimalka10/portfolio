@@ -45,6 +45,6 @@ export const projects = [
     img2: tesla2,
     distort: distorted,
     type: "React / Styled Components",
-    link: "https://roimalka10.github.io/tesla-clone/",
+    link: "https://github.com/roimalka10/tesla-clone",
   },
 ];
