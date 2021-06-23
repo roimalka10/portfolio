@@ -80,10 +80,9 @@
 }
 
 .back-icon {
-  position: absolute;
-  display: block;
-  top: 70px;
-  right: 65px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
   cursor: pointer;
   color: #fff;
   transition: all 0.3s ease;
@@ -266,14 +265,13 @@
   padding-top: 30px;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  width: 330px;
+  flex-direction: column;
   margin: 0 auto;
   padding-bottom: 31px;
   transition: all 0.3s ease-in;
-  li {
-    width: 20.5%;
+  div {
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .icon1 {

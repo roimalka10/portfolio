@@ -112,54 +112,58 @@ const Contact = () => {
                 </p>
               </div>
               <ul className="about-me-list">
-                <li className="icon1">
-                  <span className="icon-html5 spancss">
-                    <FaHtml5 className="icon-size" />
-                  </span>
-                  <span> HTML5</span>
-                </li>
-                <li className="icon1">
-                  <span className="icon-css3 spancss">
-                    <SiCss3 size={15} className="icon-size" />
-                  </span>
-                  <span> CSS3</span>
-                </li>
-                <li className="icon1">
-                  <span className="icon-javascript spancss">
-                    <SiJavascript size={15} className="icon-size" />
-                  </span>
-                  <span> JavaScript</span>
-                </li>
-                <li className="icon1">
-                  <span className="icon-react spancss">
-                    <FaReact size={15} className="icon-size" />
-                  </span>
-                  <span> React</span>
-                </li>
-                <li className="icon1">
-                  <span className="icon-git spancss">
-                    <FaGitAlt size={15} className="icon-size" />
-                  </span>
-                  <span> Git</span>
-                </li>
-                <li className="icon1">
-                  <span className="icon-github spancss">
-                    <FaGithub size={15} className="icon-size" />
-                  </span>
-                  <span> GitHub</span>
-                </li>
-                <li className="icon1">
-                  <span className="icon-vscode spancss">
-                    <SiVisualstudiocode size={15} className="icon-size" />
-                  </span>
-                  <span> VSCode</span>
-                </li>
-                <li className="icon1">
-                  <span className="icon-sass spancss">
-                    <FaSass size={15} className="icon-size" />
-                  </span>
-                  <span> Sass</span>
-                </li>
+                <div>
+                  <li className="icon1">
+                    <span className="icon-html5 spancss">
+                      <FaHtml5 className="icon-size" />
+                    </span>
+                    <span> HTML5</span>
+                  </li>
+                  <li className="icon1">
+                    <span className="icon-css3 spancss">
+                      <SiCss3 size={15} className="icon-size" />
+                    </span>
+                    <span> CSS3</span>
+                  </li>
+                  <li className="icon1">
+                    <span className="icon-javascript spancss">
+                      <SiJavascript size={15} className="icon-size" />
+                    </span>
+                    <span> JavaScript</span>
+                  </li>
+                  <li className="icon1">
+                    <span className="icon-react spancss">
+                      <FaReact size={15} className="icon-size" />
+                    </span>
+                    <span> React</span>
+                  </li>
+                </div>
+                <div>
+                  <li className="icon1">
+                    <span className="icon-git spancss">
+                      <FaGitAlt size={15} className="icon-size" />
+                    </span>
+                    <span> Git</span>
+                  </li>
+                  <li className="icon1">
+                    <span className="icon-github spancss">
+                      <FaGithub size={15} className="icon-size" />
+                    </span>
+                    <span> GitHub</span>
+                  </li>
+                  <li className="icon1">
+                    <span className="icon-vscode spancss">
+                      <SiVisualstudiocode size={15} className="icon-size" />
+                    </span>
+                    <span> VSCode</span>
+                  </li>
+                  <li className="icon1">
+                    <span className="icon-sass spancss">
+                      <FaSass size={15} className="icon-size" />
+                    </span>
+                    <span> Sass</span>
+                  </li>
+                </div>
               </ul>
             </div>
           </motion.div>
