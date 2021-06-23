@@ -58,7 +58,7 @@ const Home = () => {
               spy={true}
               smooth={true}
               duration={0}
-              offset={-80}
+              offset={20}
             >
               Latest Projects
             </Link>
