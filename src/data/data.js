@@ -39,7 +39,7 @@ export const projects = [
     distort: distorted2,
     type: "React / Sass / Framer Motion",
     github: "https://github.com/roimalka10/Fitness-website",
-    link: "",
+    link: "wildfires-tracker-roimalka.netlify.app",
   },
   {
     id: 4,
