@@ -10,7 +10,7 @@ const App = () => {
       <Router>
         <Switch>
           <Route component={Header} exact path="/" />
-          <Route component={Contact} exact path="/contact">
+          <Route component={Contact} exact path="#contact">
             <Contact />
           </Route>
         </Switch>
