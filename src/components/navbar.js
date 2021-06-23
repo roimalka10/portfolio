@@ -67,12 +67,16 @@ const Navbar = () => {
             <span>Resume</span>
           </a>
           <div className="icons-navbar">
-            <a href="https://github.com/roimalka10" target="_blank">
-              <FaGithub size={40} />
-            </a>
-            <a href="https://www.linkedin.com/in/roi-malka/" target="_blank">
-              <FaLinkedinIn size={40} />
-            </a>
+            <div>
+              <a href="https://github.com/roimalka10" target="_blank">
+                <FaGithub size={40} />
+              </a>
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/in/roi-malka/" target="_blank">
+                <FaLinkedinIn size={40} />
+              </a>
+            </div>
           </div>
         </div>
         <div className="burger-icon" onClick={handleClick}>
