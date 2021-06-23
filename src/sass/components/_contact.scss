@@ -263,17 +263,17 @@
 }
 
 .about-me-list {
-  padding-top: 40px;
+  padding-top: 30px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 360px;
+  width: 330px;
   margin: 0 auto;
   padding-bottom: 31px;
   transition: all 0.3s ease-in;
   li {
-    width: 24.5%;
+    width: 20.5%;
   }
 
   .icon1 {
@@ -291,8 +291,8 @@
 
 .spancss {
   svg {
-    width: 50px;
-    height: 60px;
+    width: 45px;
+    height: 55px;
   }
 }
 

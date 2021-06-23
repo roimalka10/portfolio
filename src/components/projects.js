@@ -32,16 +32,15 @@ const Projects = () => {
   }, []);
   return (
     <section className="projects" id="projects">
-      <motion.h1 style={{ x: size > 600 ? x : x2 }} className="p-text">
-        {" "}
+      <motion.h1 id="project">
+        <span>projects </span>
+        {/* <span>projects </span>
+         <span>projects </span>
         <span>projects </span>
         <span>projects </span>
         <span>projects </span>
         <span>projects </span>
-        <span>projects </span>
-        <span>projects </span>
-        <span>projects </span>
-        <span>projects </span>
+        <span>projects </span> */}
       </motion.h1>
       <div className="list container">
         {projects.map((project) => (
@@ -70,3 +69,4 @@ const Projects = () => {
 };
 
 export default Projects;
+// style={{ x: size > 600 ? x : x2 }}
