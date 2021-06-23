@@ -29,7 +29,7 @@ export const projects = [
     distort: distorted2,
     type: "React / Sass / NASA API",
     github: "https://github.com/roimalka10/wildfire-tracker",
-    link: "",
+    link: "https://wildfires-tracker-roimalka.netlify.app",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const projects = [
     distort: distorted2,
     type: "React / Sass / Framer Motion",
     github: "https://github.com/roimalka10/Fitness-website",
-    link: "wildfires-tracker-roimalka.netlify.app",
+    link: "",
   },
   {
     id: 4,
