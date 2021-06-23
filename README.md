@@ -12,8 +12,8 @@ so i could learn from my mistakes which helped me immensely especially in the mo
 
 ## Potential Future Features
 
-- A third and fourth projects added to the list to better showcase my skills 
-- A specifically made Particles.js background for the home page 
+- A third and fourth projects added to the list to better showcase my skills - DONE!
+- A specifically made Particles.js background for the home page  - Not needed anymore
 
 Used Create-React-App for this project so to run locally
 ```
