@@ -60,8 +60,8 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 375px;
+  justify-content: space-evenly;
+  width: 300px;
   margin-bottom: 30px;
   li {
     padding: 1rem 0;
@@ -69,8 +69,6 @@
       font-family: $ff4;
       font-size: 22px;
       margin: 0 auto;
-      margin-right: 35px;
-      margin-left: 20px;
       letter-spacing: 1.6px;
       text-decoration: none;
       padding-right: 0px;
