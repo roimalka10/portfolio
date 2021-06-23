@@ -7,7 +7,7 @@
   height: 80px;
   width: 100%;
   background-color: transparent;
-  z-index: 900;
+  z-index: 800;
   transition: all 0.4s ease;
   @media screen and (min-width: 1150px) {
     padding: 0 6rem;
@@ -19,7 +19,6 @@
 
 .navbar.active {
   background-color: rgba(0, 0, 0, 0.85);
-  overflow: hidden;
 }
 
 .navbar-items > .active {
@@ -48,11 +47,11 @@
 
   @media screen and (max-width: 900px) {
     display: flex;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
-    height: 101vh;
+    height: 100vh;
     width: 100%;
-    position: absolute;
     top: 0px;
     right: -110%;
     opacity: 1;
