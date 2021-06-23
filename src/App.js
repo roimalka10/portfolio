@@ -1,6 +1,6 @@
 import React from "react";
 import "./sass/styles.scss";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/header";
 import Contact from "./components/contact";
 
@@ -10,7 +10,7 @@ const App = () => {
       <Router>
         <Switch>
           <Route component={Header} exact path="/" />
-          <Route path="/contact">
+          <Route component={Contact} exact path="/contact">
             <Contact />
           </Route>
         </Switch>

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <>
-      <div id="contact-id">
+      <div id="contact">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
