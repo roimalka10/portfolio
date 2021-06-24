@@ -18,72 +18,6 @@ const Contact = () => {
           className="contact"
         >
           <motion.div
-            initial={{ y: "-150vh" }}
-            animate={{ y: 0 }}
-            transition={{
-              duration: 0.8,
-              delay: 0.2,
-              type: "tween",
-              stiffness: 70,
-            }}
-            className="contact-submit"
-          >
-            <div className="big-text2">Contact</div>
-            <div className="submit-text">
-              <a href="/" className="back-icon">
-                <FaTimes size={45} />
-              </a>
-              <div className="contact-text">
-                <div className="h2-text">
-                  <h2>Let's talk.</h2>
-                </div>
-                <div className="p-text2">
-                  <p>Have a question or want to work together?</p>
-                </div>
-              </div>
-              <div className="form-container" id="contact-form">
-                <form
-                  action="https://formspree.io/f/mpzkdonw"
-                  target="_blank"
-                  method="POST"
-                >
-                  <label for="Name">Name</label>
-                  <div className="form-padding">
-                    <input
-                      className="inputs"
-                      type="text"
-                      name="name"
-                      id="name"
-                      required
-                    />
-                  </div>
-                  <label for="email">Email</label>
-                  <div class="form-padding">
-                    <input
-                      className="inputs"
-                      type="email"
-                      name="email"
-                      id="email"
-                      required
-                    />
-                  </div>
-                  <label for="message">Message</label>
-                  <div class="form-padding">
-                    <textarea
-                      className="inputs"
-                      name="message"
-                      id="message"
-                      rows="3"
-                    ></textarea>
-                  </div>
-                  <button className="btn1" type="submit">
-                    <span class="button-text">Submit</span>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </motion.div>
-          <motion.div
             initial={{ y: "150vh" }}
             animate={{ y: 0 }}
             transition={{
@@ -96,6 +30,9 @@ const Contact = () => {
           >
             <div className="big-text">About</div>
             <div className="about-text">
+              <a href="/" className="back-icon">
+                <FaTimes size={45} />
+              </a>
               <div className="contact-text2">
                 <h2>About Me.</h2>
                 <p className="p-text2">Front-end Web Developer</p>
@@ -165,6 +102,72 @@ const Contact = () => {
                   </li>
                 </div>
               </ul>
+            </div>
+          </motion.div>
+          <motion.div
+            initial={{ y: "-150vh" }}
+            animate={{ y: 0 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.2,
+              type: "tween",
+              stiffness: 70,
+            }}
+            className="contact-submit"
+          >
+            <div className="big-text2">Contact</div>
+            <div className="submit-text">
+              <a href="/" className="back-icon2">
+                <FaTimes size={45} />
+              </a>
+              <div className="contact-text">
+                <div className="h2-text">
+                  <h2>Let's talk.</h2>
+                </div>
+                <div className="p-text2">
+                  <p>Have a question or want to work together?</p>
+                </div>
+              </div>
+              <div className="form-container" id="contact-form">
+                <form
+                  action="https://formspree.io/f/mpzkdonw"
+                  target="_blank"
+                  method="POST"
+                >
+                  <label for="Name">Name</label>
+                  <div className="form-padding">
+                    <input
+                      className="inputs"
+                      type="text"
+                      name="name"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <label for="email">Email</label>
+                  <div class="form-padding">
+                    <input
+                      className="inputs"
+                      type="email"
+                      name="email"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <label for="message">Message</label>
+                  <div class="form-padding">
+                    <textarea
+                      className="inputs"
+                      name="message"
+                      id="message"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <button className="btn1" type="submit">
+                    <span class="button-text">Submit</span>
+                  </button>
+                </form>
+              </div>
             </div>
           </motion.div>
         </motion.div>
