@@ -37,9 +37,9 @@ const Contact = () => {
                 <h2>About Me.</h2>
                 <p className="p-text2">Front-end Web Developer</p>
                 <p class="about-me-text">
-                  I'm Roi Malka, a <strong>Front-end developer</strong>. I'm a
-                  chill guy who likes making things with web technologies.{" "}
-                  <br />I like to <strong>resolve</strong> design problems,{" "}
+                  I'm Roi Malka, a <strong>Front-end developer</strong>. A chill
+                  guy who likes making things with web technologies. <br />I
+                  like to <strong>resolve</strong> design problems,{" "}
                   <strong>create</strong> smart user interface and{" "}
                   <strong>imagine</strong> useful interaction, developing rich
                   web experiences &amp; <strong>web applications</strong>.{" "}
