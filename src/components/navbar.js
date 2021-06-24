@@ -62,7 +62,7 @@ const Navbar = () => {
           <a
             activeClass="active"
             className="span-resume"
-            href="https://drive.google.com/file/d/1fyYQMoyPKJs9oNErZJ9I5dgldHznM8P3/view?usp=sharing"
+            href="https://drive.google.com/file/d/14cTcGq4pV9nZENGP87V5FZPUAsO5E1FS/view?usp=sharing"
             target="_blank"
           >
             <span>Resume</span>
