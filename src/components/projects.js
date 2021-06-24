@@ -1,16 +1,10 @@
 import React, { useEffect, useRef, createRef, useState } from "react";
 import hoverEffect from "hover-effect";
-import { motion, useTransform, useViewportScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import Fade from "react-reveal/Fade";
 import { projects } from "../data/data";
 
 const Projects = () => {
-  const { scrollYProgress } = useViewportScroll();
-
-  const x = useTransform(scrollYProgress, [0.9, 0.1], [1000, 0]);
-
-  const x2 = useTransform(scrollYProgress, [0.9, 0.1], [500, 0]);
-
   const [size, setSize] = useState(window.innerHeight);
 
   let wrappers = useRef({});
@@ -34,13 +28,6 @@ const Projects = () => {
     <section className="projects" id="projects">
       <motion.h1 id="project">
         <span>projects </span>
-        {/* <span>projects </span>
-         <span>projects </span>
-        <span>projects </span>
-        <span>projects </span>
-        <span>projects </span>
-        <span>projects </span>
-        <span>projects </span> */}
       </motion.h1>
       <div className="list container">
         {projects.map((project) => (
@@ -51,6 +38,7 @@ const Projects = () => {
                 <h3>{project.title}</h3>
               </div>
               <p>{project.type}</p>
+              <p>{project.about}</p>
               <a className="btn" href={project.github} target="_blank">
                 <span>See Code</span>
               </a>

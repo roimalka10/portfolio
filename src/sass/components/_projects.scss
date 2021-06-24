@@ -73,7 +73,7 @@
     }
 
     .title {
-      width: 50rem;
+      width: 50.5rem;
       z-index: 10;
       .btn {
         margin-top: 4rem;
@@ -104,7 +104,7 @@
 
         @media (max-width: 1200px) {
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
           margin-top: 10rem;
 
           h3 {
