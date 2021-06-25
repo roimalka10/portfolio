@@ -2,6 +2,7 @@ import portfolio from "../images/portfolio1.jpg";
 import portfolio2 from "../images/portfolio2.jpg";
 import trainer from "../images/training.jpg";
 import trainer2 from "../images/training2.jpg";
+import progress from "../images/workinprogress.jpg";
 import nasa2 from "../images/nasa2.jpg";
 import wildfire from "../images/wildfire.jpg";
 import tesla from "../images/tesla.jpg";
@@ -37,8 +38,8 @@ export const projects = [
   {
     id: 3,
     title: "Personal Trainer Studio",
-    img: trainer2,
-    img2: trainer,
+    img: progress,
+    img2: trainer2,
     distort: distorted2,
     type: "React / Sass / Framer Motion",
     about: "",
