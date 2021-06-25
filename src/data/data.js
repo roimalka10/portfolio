@@ -13,17 +13,6 @@ import distorted3 from "../images/distorted3.jpg";
 export const projects = [
   {
     id: 1,
-    title: "Portfolio",
-    img: portfolio,
-    img2: portfolio2,
-    distort: distorted,
-    type: "React / Sass / Framer Motion",
-    about: "My own personal portfolio to showcase my projects and skills.",
-    github: "https://github.com/roimalka10/portfolio",
-    link: "",
-  },
-  {
-    id: 2,
     title: "Wildfire Tracker",
     img: nasa2,
     img2: wildfire,
@@ -33,6 +22,17 @@ export const projects = [
       "A small project showing wildfires around the globe using nasa and google maps api's",
     github: "https://github.com/roimalka10/wildfire-tracker",
     link: "https://wildfires-tracker-roimalka.netlify.app",
+  },
+  {
+    id: 2,
+    title: "Portfolio",
+    img: portfolio,
+    img2: portfolio2,
+    distort: distorted,
+    type: "React / Sass / Framer Motion",
+    about: "My own personal portfolio to showcase my projects and skills.",
+    github: "https://github.com/roimalka10/portfolio",
+    link: "",
   },
   {
     id: 3,

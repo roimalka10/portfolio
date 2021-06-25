@@ -39,7 +39,7 @@ const Contact = () => {
                 <p class="about-me-text">
                   I'm Roi Malka, a <strong>Front-end developer</strong>. A chill
                   guy who likes making things with web technologies. <br />I
-                  like to <strong>resolve</strong> design problems,{" "}
+                  like to <strong>solve</strong> design problems,{" "}
                   <strong>create</strong> smart user interface and{" "}
                   <strong>imagine</strong> useful interaction, developing rich
                   web experiences &amp; <strong>web applications</strong>.{" "}
