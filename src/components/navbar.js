@@ -36,7 +36,6 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={0}
-          onClick={handleClick}
           className="logo"
         >
           <img src="https://res.cloudinary.com/noname-m-/image/upload/v1622245542/images/namelogo_hpncdo.png" />{" "}
