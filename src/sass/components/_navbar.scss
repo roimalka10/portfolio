@@ -46,7 +46,7 @@
     color: $primary;
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 740px) {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -133,7 +133,7 @@
     text-decoration: none;
     text-align: center;
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 740px) {
     background-color: black;
   }
 }
@@ -149,7 +149,7 @@
       color: rgb(66, 184, 253);
     }
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 740px) {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -164,7 +164,7 @@
   z-index: 2;
   color: white;
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 740px) {
     display: block;
     margin-top: 2px;
     cursor: pointer;
