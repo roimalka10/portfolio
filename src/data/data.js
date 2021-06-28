@@ -53,7 +53,7 @@ export const projects = [
     img2: tesla2,
     distort: distorted,
     type: "React / Styled Components",
-    about: "A tesla home page clone using Styled Components and react Fade",
+    about: "A tesla home page clone using Styled Components",
     github: "https://github.com/roimalka10/tesla-clone",
     link: "https://tesla-clone-roimalka.netlify.app",
   },
