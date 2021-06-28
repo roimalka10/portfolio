@@ -12,7 +12,7 @@ const Header = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1300);
+    }, 1400);
   }, []);
 
   return (
