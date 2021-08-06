@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import resume from "../images/roi-malka-resume.pdf";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -69,8 +70,8 @@ const Navbar = () => {
           <a
             activeClass="active"
             className="span-resume"
-            href="https://drive.google.com/file/d/11G4xZSwv9v4EGNeA-5SWLGP7UblpYg0j/view?usp=sharing"
-            target="_blank"
+            href={resume}
+            download
           >
             <span>Resume</span>
           </a>

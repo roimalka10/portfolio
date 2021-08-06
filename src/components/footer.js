@@ -1,5 +1,5 @@
 import React from "react";
-
+import resume from "../images/roi-malka-resume.pdf";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { RiArrowUpSLine } from "react-icons/ri";
@@ -40,10 +40,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a
-              href="https://drive.google.com/file/d/11G4xZSwv9v4EGNeA-5SWLGP7UblpYg0j/view?usp=sharing"
-              target="_blank"
-            >
+            <a href={resume} download>
               Resume
             </a>
           </li>
