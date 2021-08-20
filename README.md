@@ -1,4 +1,4 @@
-# Personal Portfolio
+# My Personal Portfolio
 
 #### A personal portfolio website made with React and Framer Motion for animations.
 
