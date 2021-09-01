@@ -10,19 +10,21 @@ import tesla2 from "../images/tesla2.jpg";
 import distorted from "../images/distorted.jpg";
 import distorted2 from "../images/distorted2.jpeg";
 import distorted3 from "../images/distorted3.jpg";
+import weather from "../images/weatherapp.jpg";
+import darkWeather from "../images/darksky.jpg";
 
 export const projects = [
   {
     id: 1,
-    title: "Wildfire Tracker",
-    img: nasa2,
-    img2: wildfire,
+    title: "Weather App",
+    img: weather,
+    img2: darkWeather,
     distort: distorted2,
-    type: "React / Sass / NASA API / Google Maps API",
+    type: "React / Redux / Accuweather API / Sass",
     about:
-      "A small project showing wildfires around the globe using nasa and google maps api's",
-    github: "https://github.com/roimalka10/wildfire-tracker",
-    link: "https://wildfires-tracker-roimalka.netlify.app",
+      "A weather app built to show state management using redux and Api usage displaying dynamic weather data",
+    github: "https://github.com/roimalka10/Weather-app",
+    link: "https://roi-malka-weather-app.netlify.app/",
   },
   {
     id: 2,
@@ -48,6 +50,18 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Wildfire Tracker",
+    img: nasa2,
+    img2: wildfire,
+    distort: distorted2,
+    type: "React / Sass / NASA API / Google Maps API",
+    about:
+      "A small project showing wildfires around the globe using nasa and google maps api's",
+    github: "https://github.com/roimalka10/wildfire-tracker",
+    link: "https://wildfires-tracker-roimalka.netlify.app",
+  },
+  {
+    id: 5,
     title: "Personal Trainer Studio",
     img: progress,
     img2: trainer2,
