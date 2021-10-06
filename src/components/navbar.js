@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedinIn, FaBars, FaTimes } from "react-icons/fa";
-import resume from "../images/roi-malka-resume.pdf";
+import resume from "../images/roi-malka-resume-2.pdf";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
