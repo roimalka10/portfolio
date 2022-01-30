@@ -39,10 +39,10 @@ const Home = () => {
               delay: 1.1,
             }}
           >
-            <h3>
+            {/* <h3>
               Front-end Developer
               <br /> & Designer
-            </h3>
+            </h3> */}
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
