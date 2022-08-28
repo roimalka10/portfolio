@@ -1,7 +1,29 @@
 .projects {
+  .marquee {
+    padding: 0 20px 0 0;
+    pointer-events: none;
+    h2,
+    span {
+      color: var(--primary);
+      font-family: "Bigilla", "san-serif";
+      font-size: 85px;
+      text-transform: uppercase;
+      width: fit-content;
+    }
+    span {
+      padding: 0 20px;
+    }
+    @media (max-width: 991px) {
+      h2,
+      span {
+        font-size: 42px;
+      }
+    }
+  }
+
   h1 {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     padding-top: 100px;
     display: flex;
     align-items: center;
@@ -10,7 +32,7 @@
     span {
       text-transform: capitalize;
       font-family: $ff1;
-      font-size: 25rem;
+      font-size: 18rem;
       color: $primary;
       margin: 0 5rem;
     }
@@ -20,12 +42,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 25rem;
+    margin-top: 0;
     margin-bottom: 30rem;
-
-    @media (max-width: 1200px) {
-      margin-top: 20rem;
-    }
 
     & > * {
       position: relative;
@@ -73,13 +91,16 @@
     }
 
     .title {
-      width: 50.5rem;
+      width: 55rem;
       z-index: 10;
       .btn {
-        margin-top: 4rem;
-        padding: 8px 30px;
+        padding: 8px 20px;
+        margin: 4rem 20px 0 0;
         span {
-          font-size: 18px;
+          font-size: 100%;
+        }
+        @media (max-width: 767px) {
+          margin: 4rem 10px 0;
         }
       }
 
@@ -102,6 +123,10 @@
           }
         }
 
+        h3:last-child {
+          padding-bottom: 30px;
+        }
+
         @media (max-width: 1200px) {
           display: flex;
           justify-content: center;
@@ -114,13 +139,13 @@
       }
 
       p {
-        font-size: 3.5rem;
-        margin-top: 7rem;
-        font-family: $ff2;
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        font-family: "Walkway-SemiBold", serif;
 
         @media (max-width: 1200px) {
           margin-top: 3rem;
-          font-size: 3.2rem;
+          font-size: 18px;
           text-align: center;
         }
       }

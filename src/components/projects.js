@@ -2,6 +2,7 @@ import React, { useEffect, useRef, createRef, useState } from "react";
 import hoverEffect from "hover-effect";
 import { motion } from "framer-motion";
 import Fade from "react-reveal/Fade";
+import Marquee from "react-fast-marquee";
 import { projects } from "../data/data";
 
 const Projects = () => {
@@ -26,6 +27,13 @@ const Projects = () => {
   }, []);
   return (
     <section className="projects" id="projects">
+      <Marquee speed={100} gradient={false} className="marquee">
+        <h2>
+          Aspire to inspire. <span>Creativity takes courage.</span> Aspire to
+          inspire. <span>Creativity takes courage.</span> Aspire to inspire.{" "}
+          <span>Creativity takes courage.</span>
+        </h2>
+      </Marquee>
       <motion.h1 id="project">
         <span>projects </span>
       </motion.h1>
@@ -42,6 +50,9 @@ const Projects = () => {
               <a className="btn" href={project.github} target="_blank">
                 <span>See Code</span>
               </a>
+              <a className="btn btn2" href={project.link} target="_blank">
+                <span>View Page</span>
+              </a>
             </div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <div
@@ -57,4 +68,3 @@ const Projects = () => {
 };
 
 export default Projects;
-// style={{ x: size > 600 ? x : x2 }}
