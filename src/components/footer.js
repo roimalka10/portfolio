@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../images/roi-malka-resume-2.pdf";
+import resume from "../images/roimalka2022.pdf";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import { RiArrowUpSLine } from "react-icons/ri";

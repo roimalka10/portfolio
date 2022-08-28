@@ -38,12 +38,7 @@ const Home = () => {
               duration: 0.5,
               delay: 1.1,
             }}
-          >
-            {/* <h3>
-              Front-end Developer
-              <br /> & Designer
-            </h3> */}
-          </motion.div>
+          ></motion.div>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
