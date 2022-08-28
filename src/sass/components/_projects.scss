@@ -101,6 +101,10 @@
         }
         @media (max-width: 767px) {
           margin: 4rem 10px 0;
+          padding: 8px 12px;
+          span {
+            font-size: 90%;
+          }
         }
       }
 
